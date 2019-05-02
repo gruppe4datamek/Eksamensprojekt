@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Eksamensprojekt.MainPage"
+    x:Class="Eksamensprojekt.LadDerVaereLys"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Eksamensprojekt"
@@ -9,16 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="Assets/Eksamensprojekt billed.jpg" Stretch="UniformToFill"></ImageBrush>
-        </Grid.Background>
+<Grid.Background>
+<ImageBrush ImageSource ="Assets/Rum 1.png" Stretch ="UniformToFill"></ImageBrush>
+</Grid.Background>
         <RelativePanel Margin="0,0,0,0">
             <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
         </RelativePanel>
-        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="250" Opacity="0.6">
+        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="150" Opacity="0.6">
             <SplitView.Pane>
-                <StackPanel Margin="0,60,0,0" Padding="20">
-                    <Button Click="Rum1_OnClick" Background="DarkGoldenrod" >Lad Der Være Lys</Button></StackPanel>
+                <StackPanel></StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
                 <StackPanel ></StackPanel>
