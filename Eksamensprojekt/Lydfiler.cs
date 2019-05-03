@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Eksamensprojekt
 {
-    class Lydfiler
+    public class Lydfiler
     {
+        private List<Lydfiler> _lydfilers;
+
+        public Lydfiler()
+        {
+            _lydfilers = new List<Lydfiler>();
+            
+        }
     }
 }
