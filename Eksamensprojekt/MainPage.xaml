@@ -18,7 +18,11 @@
         <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="250" Opacity="0.6">
             <SplitView.Pane>
                 <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                    <Button Click="Rum1_OnClick" Background="DarkGoldenrod" >Lad Der Være Lys</Button> <Image Margin="5" Width="32" Height="auto" Source="Assets/LadDerVaereLys.png"></Image></StackPanel>
+                    <Button Click="Rum1_OnClick" Background="DarkGoldenrod" >Lad Der Være Lys</Button>
+                    <Image Margin="5" Width="32" Height="auto" Source="Assets/LadDerVaereLys.png"></Image>
+                </StackPanel>
+
+              
             </SplitView.Pane>
             <SplitView.Content>
                 <StackPanel ></StackPanel>

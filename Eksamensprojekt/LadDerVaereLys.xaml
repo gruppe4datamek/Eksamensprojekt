@@ -17,7 +17,10 @@
         </RelativePanel>
         <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="150" Opacity="0.6">
             <SplitView.Pane>
-                <StackPanel></StackPanel>
+                <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
+                    <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
+                </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
                 <StackPanel ></StackPanel>

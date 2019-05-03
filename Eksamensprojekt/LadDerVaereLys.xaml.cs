@@ -30,5 +30,10 @@ namespace Eksamensprojekt
         {
             this.SplitView.IsPaneOpen = !this.SplitView.IsPaneOpen;
         }
+
+        private void MainPage_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }
