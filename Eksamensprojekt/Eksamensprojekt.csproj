@@ -119,11 +119,11 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Beskrivelse.cs" />
+    <Compile Include="Model\Beskrivelse.cs" />
     <Compile Include="LadDerVaereLys.xaml.cs">
       <DependentUpon>LadDerVaereLys.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Lydfiler.cs" />
+    <Compile Include="Model\Lydfiler.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
