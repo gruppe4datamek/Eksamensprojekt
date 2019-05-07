@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Media.Playback;
 
 namespace Eksamensprojekt
 {
     public class Lydfiler
     {
-        private List<Lydfiler> _lydfilers;
+        private int _lydfilsId;
+        private MediaPlayer mediaPlayer = new MediaPlayer();
 
         public Lydfiler()
         {
-            _lydfilers = new List<Lydfiler>();
-            
+
         }
     }
 }
