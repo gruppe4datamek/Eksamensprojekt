@@ -138,6 +138,8 @@
     <None Include="Eksamensprojekt_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\1 tal v1.png" />
+    <Content Include="Assets\2 tal %282%29.png" />
     <Content Include="Assets\LadDerVaereLys.png" />
     <Content Include="Assets\rockrock.png" />
     <Content Include="Assets\Rum 1.png" />
