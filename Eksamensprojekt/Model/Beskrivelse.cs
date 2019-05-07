@@ -8,33 +8,33 @@ namespace Eksamensprojekt
 {
     public class Beskrivelse
     {
-        private int _artefaktId;
-        private string _artefaktNavn;
-        private string _artefaktBeskrivelse;
+        private int _beskrivelseId;
+        private string _beskrivelseNavn;
+        private string _beskrivelsesText;
 
         public Beskrivelse(int id, string navn, string beskrivelse)
         {
-            _artefaktId = id;
-            _artefaktNavn = navn;
-            _artefaktBeskrivelse = beskrivelse;
+            _beskrivelseId = id;
+            _beskrivelseNavn = navn;
+            _beskrivelsesText = beskrivelse;
         }
 
-        public int ArtefaktId
+        public int BeskrivelseId
         {
-            get { return _artefaktId; }
-            set { _artefaktId = value; }
+            get { return _beskrivelseId; }
+            set { _beskrivelseId = value; }
         }
 
-        public string ArtefaktNavn
+        public string BeskrivelseNavn
         {
-            get { return _artefaktNavn; }
-            set { _artefaktNavn = value; }
+            get { return _beskrivelseNavn; }
+            set { _beskrivelseNavn = value; }
         }
 
-        public string ArtefaktBeskrivelse
+        public string BeskrivelsesText
         {
-            get { return _artefaktBeskrivelse; }
-            set { _artefaktBeskrivelse = value; }
+            get { return _beskrivelsesText; }
+            set { _beskrivelsesText = value; }
         }
     }
 }
