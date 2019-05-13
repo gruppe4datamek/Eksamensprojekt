@@ -6,11 +6,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0">
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource ="Assets/Rum 1.png" Stretch ="UniformToFill"></ImageBrush>
+            <ImageBrush ImageSource ="Assets/Rum 1.png" Stretch="UniformToFill" ></ImageBrush>
         </Grid.Background>
         <RelativePanel Margin="0,0,0,0">
             <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
