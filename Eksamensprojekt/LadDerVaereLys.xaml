@@ -6,12 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0">
 
     <Grid>
-<Grid.Background>
-<ImageBrush ImageSource ="Assets/Rum 1.png" Stretch ="UniformToFill"></ImageBrush>
-</Grid.Background>
+        <Grid.Background>
+            <ImageBrush ImageSource ="Assets/Rum 1.png" Stretch="UniformToFill" ></ImageBrush>
+        </Grid.Background>
         <RelativePanel Margin="0,0,0,0">
             <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
         </RelativePanel>
@@ -23,8 +23,34 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel ></StackPanel>
+                <StackPanel Margin="0,0,0,0" Background="Transparent">
+
+                    <Button Name="Button1" Width="100" Height="100" Margin="195,285,0,0" Background="Transparent" Click="Popup1_OnClick">
+                        <Image Source="Assets/1 tal v1.png"></Image>
+                    </Button>
+                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
+                        <StackPanel Background="LightBlue">
+                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
+
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
+
+                    <Button Name="Button2" Width="100" Height="100" Margin="332,-860,0,0" Background="Transparent" Click="Popup2_OnClick">
+                        <Image Source="Assets/2 tal (2).png"></Image>
+                    </Button>
+                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup2">
+                        <StackPanel Background="LightBlue">
+                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
+
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
+
+                </StackPanel>
+
             </SplitView.Content>
+
         </SplitView>
     </Grid>
 </Page>
