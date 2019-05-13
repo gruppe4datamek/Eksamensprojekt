@@ -22,6 +22,8 @@ namespace Eksamensprojekt
     /// </summary>
     public sealed partial class LadDerVaereLys : Page
     {
+
+
         public LadDerVaereLys()
         {
             this.InitializeComponent();
@@ -36,11 +38,11 @@ namespace Eksamensprojekt
             this.Frame.Navigate(typeof(MainPage));
         }
 
-        private void Popup1_OnClick(object sender, RoutedEventArgs e)
+        public void Popup1_OnClick(object sender, RoutedEventArgs e)
         {
             this.Popup1.IsOpen = !this.Popup1.IsOpen;
         }
-        private void Popup2_OnClick(object sender, RoutedEventArgs e)
+        public void Popup2_OnClick(object sender, RoutedEventArgs e)
         {
             this.Popup2.IsOpen = !this.Popup2.IsOpen;
         }
