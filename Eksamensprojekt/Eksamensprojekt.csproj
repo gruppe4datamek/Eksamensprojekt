@@ -141,10 +141,15 @@
   <ItemGroup>
     <Content Include="Assets\1 tal v1.png" />
     <Content Include="Assets\2 tal %282%29.png" />
+    <Content Include="Assets\Blikfang.png" />
+    <Content Include="Assets\Dansefeber.png" />
     <Content Include="Assets\LadDerVaereLys.png" />
+    <Content Include="Assets\Musikalske stømme.png" />
     <Content Include="Assets\rockrock.png" />
     <Content Include="Assets\Rum 1.png" />
     <Content Include="Assets\Eksamensprojekt billed.jpg" />
+    <Content Include="Assets\Rum 2.png" />
+    <Content Include="Assets\Skælv.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
