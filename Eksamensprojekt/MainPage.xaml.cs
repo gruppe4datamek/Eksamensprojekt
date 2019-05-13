@@ -36,5 +36,6 @@ namespace Eksamensprojekt
         {
             this.Frame.Navigate(typeof(LadDerVaereLys));
         }
+
     }
 }
