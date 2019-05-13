@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml;
 
-namespace Eksamensprojekt
+namespace Eksamensprojekt.ViewModel
 {
-   public class ViewModel
-    {
+  public class ClassViewModel
+  {
+
+      private string _name;
+
+      
     }
 }
