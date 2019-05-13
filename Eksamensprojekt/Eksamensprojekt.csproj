@@ -136,6 +136,12 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Eksamensprojekt_TemporaryKey.pfx" />
+    <Content Include="Resource\RobotoCondensed-Bold.ttf" />
+    <Content Include="Resource\RobotoCondensed-BoldItalic.ttf" />
+    <Content Include="Resource\RobotoCondensed-Italic.ttf" />
+    <Content Include="Resource\RobotoCondensed-Light.ttf" />
+    <Content Include="Resource\RobotoCondensed-LightItalic.ttf" />
+    <Content Include="Resource\RobotoCondensed-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\LadDerVaereLys.png" />
