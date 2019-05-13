@@ -137,15 +137,27 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Eksamensprojekt_TemporaryKey.pfx" />
+    <Content Include="Resource\RobotoCondensed-Bold.ttf" />
+    <Content Include="Resource\RobotoCondensed-BoldItalic.ttf" />
+    <Content Include="Resource\RobotoCondensed-Italic.ttf" />
+    <Content Include="Resource\RobotoCondensed-Light.ttf" />
+    <Content Include="Resource\RobotoCondensed-LightItalic.ttf" />
+    <Content Include="Resource\RobotoCondensed-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\1 tal v1.png" />
     <Content Include="Assets\2 tal %282%29.png" />
     <Content Include="Assets\Blikfang.png" />
     <Content Include="Assets\Dansefeber.png" />
+    <Content Include="Assets\Demoteket.png" />
+    <Content Include="Assets\Den røde tråd.png" />
+    <Content Include="Assets\Elektrisk intimitet .png" />
+    <Content Include="Assets\Fandrenge, fanpiger.png" />
+    <Content Include="Assets\Jagtten på den fede lyd.png" />
     <Content Include="Assets\LadDerVaereLys.png" />
     <Content Include="Assets\Musikalske stømme.png" />
     <Content Include="Assets\rockrock.png" />
+    <Content Include="Assets\Rotation.png" />
     <Content Include="Assets\Rum 1.png" />
     <Content Include="Assets\Eksamensprojekt billed.jpg" />
     <Content Include="Assets\Rum 2.png" />

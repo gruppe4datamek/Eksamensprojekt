@@ -6,26 +6,34 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+    
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="343*"/>
+        </Grid.RowDefinitions>
+
+
         <Grid.Background>
             <ImageBrush ImageSource="Assets/Eksamensprojekt billed.jpg" Stretch="Fill"></ImageBrush>
         </Grid.Background>
-        <RelativePanel Margin="0,0,0,0">
-            <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+        <RelativePanel Margin="0,0,0,687" Background="DarkGoldenrod" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
+            <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="50" Content="&#xE700;" Margin="10,8,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+            <TextBlock Text="RAGNAROCK" Margin="106,11,-195.4,-30.8" HorizontalAlignment="Stretch" FontSize="50" VerticalAlignment="Stretch"></TextBlock>
         </RelativePanel>
-        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="250" Opacity="0.6">
+        <SplitView Name="mySplitView" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" Margin="0,81,10,29" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <SplitView.Pane>
                 <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                    <Button Click="Rum1_OnClick" Background="DarkGoldenrod" >Lad Der Være Lys</Button>
-                    <Image Margin="5" Width="32" Height="auto" Source="Assets/LadDerVaereLys.png"></Image>
+                    <Button Click="Rum1_OnClick" Background="DarkGoldenrod" FontSize="30" >Lad Der Være Lys</Button>
+                    <Image Margin="5" Width="52" Height="auto" Source="Assets/LadDerVaereLys.png"></Image>
                 </StackPanel>
 
-              
+
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel ></StackPanel>
+                <StackPanel HorizontalAlignment="Stretch" Margin="248,0,0,0" VerticalAlignment="Stretch" ></StackPanel>
             </SplitView.Content>
         </SplitView>
     </Grid>
