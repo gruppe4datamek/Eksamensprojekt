@@ -23,17 +23,32 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel Margin="0,290,0,0" Background="Transparent">
+                <StackPanel Margin="0,0,0,0" Background="Transparent">
 
-                    <Button Width="100" Height="100" Margin="185,-5,0,0" Background="Transparent">
+                    <Button Name="Button1" Width="100" Height="100" Margin="195,285,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
+                    </Button>
+                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
+                        <StackPanel Background="LightBlue">
+                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
 
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
+
+                    <Button Name="Button2" Width="100" Height="100" Margin="332,-860,0,0" Background="Transparent" Click="Popup2_OnClick">
+                        <Image Source="Assets/2 tal (2).png"></Image>
                     </Button>
-                    <Button Width="115" Height="115" Margin="325,-622 ,0,0" Background="Transparent">
-                        <Image Source="Assets/2 tal (2).png"/>
-                    </Button>
+                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup2">
+                        <StackPanel Background="LightBlue">
+                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
+
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
 
                 </StackPanel>
+
             </SplitView.Content>
 
         </SplitView>

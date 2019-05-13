@@ -35,5 +35,14 @@ namespace Eksamensprojekt
         {
             this.Frame.Navigate(typeof(MainPage));
         }
+
+        private void Popup1_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Popup1.IsOpen = !this.Popup1.IsOpen;
+        }
+        private void Popup2_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Popup2.IsOpen = !this.Popup2.IsOpen;
+        }
     }
 }
