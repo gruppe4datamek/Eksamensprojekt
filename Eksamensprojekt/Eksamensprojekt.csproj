@@ -137,6 +137,12 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Eksamensprojekt_TemporaryKey.pfx" />
+    <Content Include="media\Dansefeber.m4a" />
+    <Content Include="media\gammelt lysshows kamera.m4a" />
+    <Content Include="media\Lad der være lys.m4a" />
+    <Content Include="media\lysshows maskine.m4a" />
+    <Content Include="media\Montre med videoer.m4a" />
+    <Content Include="media\Optagelse.m4a" />
     <Content Include="Resource\RobotoCondensed-Bold.ttf" />
     <Content Include="Resource\RobotoCondensed-BoldItalic.ttf" />
     <Content Include="Resource\RobotoCondensed-Italic.ttf" />
