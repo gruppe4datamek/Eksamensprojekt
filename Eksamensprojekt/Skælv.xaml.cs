@@ -13,33 +13,36 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Eksamensprojekt
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Skælv : Page
     {
-        public MainPage()
+        public Skælv()
         {
             this.InitializeComponent();
         }
-
         private void HamburgerButton_OnClick(object sender, RoutedEventArgs e)
         {
-            this.mySplitView.IsPaneOpen = !this.mySplitView.IsPaneOpen;
+            this.SplitView.IsPaneOpen = !this.SplitView.IsPaneOpen;
         }
 
-        private void Rum1_OnClick(object sender, RoutedEventArgs e)
+        private void MainPage_OnClick(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(LadDerVaereLys));
-        }
-        private void Rum2_OnClick(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(DanseFeber));
+            this.Frame.Navigate(typeof(MainPage));
         }
 
+        public void Popup1_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Popup1.IsOpen = !this.Popup1.IsOpen;
+        }
+        public void Popup2_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Popup2.IsOpen = !this.Popup2.IsOpen;
+        }
     }
 }
