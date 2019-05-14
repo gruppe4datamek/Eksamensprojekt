@@ -131,6 +131,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MusikalskeStroemme.xaml.cs">
+      <DependentUpon>MusikalskeStroemme.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Persistency\FilePersistency.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skælv.xaml.cs">
@@ -203,6 +206,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MusikalskeStroemme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Skælv.xaml">
       <SubType>Designer</SubType>

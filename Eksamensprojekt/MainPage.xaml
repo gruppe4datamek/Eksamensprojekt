@@ -31,6 +31,12 @@
 
                     <Button Click="Rum2_OnClick" Background="DarkGoldenrod" FontSize="30" Margin="-300,-300,0,0" Width="245" >DanseFeber</Button>
                     <Image Margin="-50,0,0,300" Width="52" Height="Auto" Source="Assets/Dansefeber.png"></Image>
+
+                    <Button Click="Rum3_OnClick" Background="DarkGoldenrod" FontSize="30" Margin="-300,-150,0,0" Width="245" >Skælv</Button>
+                    <Image Margin="-60,0,0,165" Width="70" Height="Auto" Source="Assets/Skælv.png"></Image>
+
+                    <Button Click="Rum4_OnClick" Background="DarkGoldenrod" FontSize="25" Margin="-310,0,0,0" Width="245" >MusikalskeStrømme</Button>
+                    <Image Margin="-60,0,0,25" Width="60" Height="Auto" Source="Assets/Musikalske stømme.png"></Image>
                 </StackPanel>
 
 

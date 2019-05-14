@@ -40,6 +40,14 @@ namespace Eksamensprojekt
         {
             this.Frame.Navigate(typeof(DanseFeber));
         }
+        private void Rum3_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Skælv));
+        }
+        private void Rum4_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MusikalskeStroemme));
+        }
 
     }
 }

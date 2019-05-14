@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Eksamensprojekt.Skælv"
+    x:Class="Eksamensprojekt.MusikalskeStroemme"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Eksamensprojekt"
@@ -14,10 +14,10 @@
             <ColumnDefinition Width="26*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource ="Assets/Rum 3.png" Stretch="Fill"></ImageBrush>
+            <ImageBrush ImageSource ="Assets/Rum 5.png" Stretch="Fill"></ImageBrush>
         </Grid.Background>
         <RelativePanel Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+            <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="40,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
         </RelativePanel>
         <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="150" Opacity="0.6" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
             <SplitView.Pane>
