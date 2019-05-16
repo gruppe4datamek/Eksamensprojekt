@@ -23,7 +23,7 @@
             <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="50" Content="&#xE700;" Margin="10,8,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
             <TextBlock Text="RAGNAROCK" Margin="106,11,-195.4,-30.8" HorizontalAlignment="Stretch" FontSize="50" VerticalAlignment="Stretch"></TextBlock>
         </RelativePanel>
-        <StackPanel Margin="30,85,30,578" Background="Goldenrod" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <StackPanel Margin="30,83,30,580" Background="Goldenrod" Grid.Row="1"/>
         <TextBlock Text="MUSEET FOR POP, ROCK OG UNGDOMSKULTUR" Margin="34,82.4,34,567" FontSize="17" Grid.Row="1" HorizontalAlignment="Stretch"/>
         <SplitView Name="mySplitView" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" Margin="0,81,10,29" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <SplitView.Pane>
@@ -37,10 +37,12 @@
                     <Button Click="Rum3_OnClick" Background="DarkGoldenrod" FontSize="30" Margin="-300,179,0,0" Width="245" HorizontalAlignment="Left" VerticalAlignment="Top" >Skælv</Button>
                     <Image Margin="-60,0,0,165" Width="70" Height="Auto" Source="Assets/Skælv.png"></Image>
 
-                    <Button Click="Rum4_OnClick" Background="DarkGoldenrod" FontSize="25" Margin="-310,0,0,0" Width="245" >MusikalskeStrømme</Button>
+                    <Button Click="Rum4_OnClick" Background="DarkGoldenrod" FontSize="25" Margin="-310,259,0,0" Width="245" HorizontalAlignment="Left" VerticalAlignment="Top" >MusikalskeStrømme</Button>
                     <Image Margin="-60,0,0,25" Width="60" Height="Auto" Source="Assets/Musikalske stømme.png"></Image>
-                    <Button Click="Rum5_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-305,30,0,-100" Height="auto" Width="240">Fandrenge, Fanpiger</Button>
+                    <Button Click="Rum5_OnClick" Background="DarkGoldenrod" FontSize="24" Margin="-310,323,0,0" Height="auto" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top">Fandrenge, Fanpiger</Button>
                     <Image Margin="-60,0,0,-125" Width="40" Height="auto" Source="Assets/Fandrenge, fanpiger.png"></Image>
+                    <Button Click="Rum6_OnClick" Background="DarkGoldenrod" FontSize="25" Margin="-310,260,0,0" Height="auto" Width="250">Den Røde Tråd</Button>
+                    <Image Margin="-60,0,0,-250" Width="60" Height="auto" Source="Assets/Den røde tråd.png"></Image>
                 </StackPanel>
 
 
