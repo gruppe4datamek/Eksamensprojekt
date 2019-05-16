@@ -20,28 +20,54 @@
         <RelativePanel Margin="0,0,0,0">
             <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
         </RelativePanel>
-        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="150" Opacity="0.6">
+        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="210" Opacity="0.7">
             <SplitView.Pane>
                 <StackPanel>
 
                     <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
 
-                        <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
-                        <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
+                        <Button Click="MainPage_OnClick" Background="DarkGoldenrod" Width="159">Forside</Button>
+                        <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="1,0,0,0"></Image>
                     </StackPanel >
                     <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                        <Button Click="Dansefeber" Margin="0,0,0,0" Width="95" Height="auto" FontSize="15" Background="DarkGoldenrod">Dansefeber
+                        <Button Click="Dansefeber" Margin="0,0,0,0" Width="159" Height="auto" FontSize="15" Background="DarkGoldenrod">Dansefeber
                         </Button>
                         <Image Source="Assets/Dansefeber.png" Height="auto" Margin="0,0,0,0" Width="30" ></Image>
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                        <Button Click="Skælv" Margin="0,0,0,0" Width="95" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
+                        <Button Click="Skælv" Margin="0,0,0,0" Width="159" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
                         <Image Source="Assets/Skælv.png" Height="auto" Width="30"></Image>
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                        
-
+                        <Button  Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Blikfang</Button>
+                        <Image Source="Assets/Blikfang.png" Height="auto" Width="30"></Image>
                     </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="MusikalskeStrømme" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Musikalske Strømme</Button>
+                        <Image Source="Assets/Musikalske stømme.png" Height="auto" Width="30" ></Image>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Fandrenge, fanpiger</Button>
+                        <Image Source="Assets/Fandrenge, fanpiger.png" Height="auto" Width="30" ></Image>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den røde tråd</Button>
+                        <Image Source="Assets/Den røde tråd.png" Height="auto" Width="30" ></Image>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Elektrisk intimitet</Button>
+                        <Image Source="Assets/Elektrisk intimitet .png" Height="auto" Width="30" ></Image>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Rotation</Button>
+                        <Image Source="Assets/Rotation.png" Height="auto" Width="30" ></Image>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Jagten på den fede lyd</Button>
+                        <Image Source="Assets/Jagtten på den fede lyd.png" Height="auto" Width="30" ></Image>
+                    </StackPanel>
+                    
+                    
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>

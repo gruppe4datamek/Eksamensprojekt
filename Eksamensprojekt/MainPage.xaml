@@ -25,7 +25,7 @@
         </RelativePanel>
         <StackPanel Margin="30,83,30,580" Background="Goldenrod" Grid.Row="1"/>
         <TextBlock Text="MUSEET FOR POP, ROCK OG UNGDOMSKULTUR" Margin="34,82.4,34,567" FontSize="17" Grid.Row="1" HorizontalAlignment="Stretch"/>
-        <SplitView Name="mySplitView" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" Margin="0,81,10,29" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
+        <SplitView Name="mySplitView" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.7" Margin="0,81,10,29" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <SplitView.Pane>
                 <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top" Height="600" Width="350" HorizontalAlignment="Stretch">
                     <Button Click="Rum1_OnClick" Background="DarkGoldenrod" FontSize="30" Margin="0,-450,0,0" Width="245" >Lad Der Være Lys</Button>
@@ -40,9 +40,9 @@
                     <Button Click="Rum4_OnClick" Background="DarkGoldenrod" FontSize="25" Margin="-310,259,0,0" Width="245" HorizontalAlignment="Left" VerticalAlignment="Top" >MusikalskeStrømme</Button>
                     <Image Margin="-60,0,0,25" Width="60" Height="Auto" Source="Assets/Musikalske stømme.png"></Image>
                     <Button Click="Rum5_OnClick" Background="DarkGoldenrod" FontSize="24" Margin="-310,323,0,0" Height="auto" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top">Fandrenge, Fanpiger</Button>
-                    <Image Margin="-60,0,0,-125" Width="40" Height="auto" Source="Assets/Fandrenge, fanpiger.png"></Image>
+                    <Image Margin="-60,0,0,-125" Width="40" Height="auto" Source="Assets/Den røde tråd.png"></Image>
                     <Button Click="Rum6_OnClick" Background="DarkGoldenrod" FontSize="25" Margin="-310,260,0,0" Height="auto" Width="250">Den Røde Tråd</Button>
-                    <Image Margin="-60,0,0,-250" Width="60" Height="auto" Source="Assets/Den røde tråd.png"></Image>
+                    <Image Margin="-60,0,0,-250" Width="60" Height="auto" Source="Assets/Fandrenge, fanpiger.png"></Image>
                 </StackPanel>
 
 

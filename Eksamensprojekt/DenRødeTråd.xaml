@@ -19,7 +19,7 @@
         <RelativePanel Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
         </RelativePanel>
-        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="150" Opacity="0.6" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
+        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="210" Opacity="0.7" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
             <SplitView.Pane>
                 <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
                     <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
