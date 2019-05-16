@@ -23,6 +23,8 @@
             <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="50" Content="&#xE700;" Margin="10,8,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
             <TextBlock Text="RAGNAROCK" Margin="106,11,-195.4,-30.8" HorizontalAlignment="Stretch" FontSize="50" VerticalAlignment="Stretch"></TextBlock>
         </RelativePanel>
+        <StackPanel Margin="30,85,30,578" Background="Goldenrod" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <TextBlock Text="MUSEET FOR POP, ROCK OG UNGDOMSKULTUR" Margin="34,82.4,34,567" FontSize="17" Grid.Row="1" HorizontalAlignment="Stretch"/>
         <SplitView Name="mySplitView" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" Margin="0,81,10,29" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <SplitView.Pane>
                 <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top" Height="600" Width="350" HorizontalAlignment="Stretch">
@@ -42,10 +44,12 @@
                 </StackPanel>
 
 
+
             </SplitView.Pane>
             <SplitView.Content>
                 <StackPanel HorizontalAlignment="Stretch" Margin="248,0,0,0" VerticalAlignment="Stretch" ></StackPanel>
             </SplitView.Content>
         </SplitView>
+
     </Grid>
 </Page>
