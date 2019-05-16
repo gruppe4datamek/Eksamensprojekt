@@ -9,7 +9,7 @@
     
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Height="768" Width="432">
         <Grid.RowDefinitions>
             <RowDefinition Height="41*"/>
             <RowDefinition Height="343*"/>
@@ -39,6 +39,8 @@
 
                     <Button Click="Rum4_OnClick" Background="DarkGoldenrod" FontSize="25" Margin="-310,0,0,0" Width="245" >MusikalskeStrømme</Button>
                     <Image Margin="-60,0,0,25" Width="60" Height="Auto" Source="Assets/Musikalske stømme.png"></Image>
+
+                    
                 </StackPanel>
 
 
