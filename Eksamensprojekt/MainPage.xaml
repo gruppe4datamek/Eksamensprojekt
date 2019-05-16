@@ -41,6 +41,8 @@
                     <Image Margin="-60,0,0,25" Width="60" Height="Auto" Source="Assets/Musikalske stømme.png"></Image>
                     <Button Click="Rum5_OnClick" Background="DarkGoldenrod" FontSize="24" Margin="-310,323,0,0" Height="auto" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top">Fandrenge, Fanpiger</Button>
                     <Image Margin="-60,0,0,-125" Width="40" Height="auto" Source="Assets/Fandrenge, fanpiger.png"></Image>
+                    <Button Click="Rum6_OnClick" Background="DarkGoldenrod" FontSize="25" Margin="-310,260,0,0" Height="auto" Width="250">Den Røde Tråd</Button>
+                    <Image Margin="-60,0,0,-250" Width="60" Height="auto" Source="Assets/Den røde tråd.png"></Image>
                 </StackPanel>
 
 

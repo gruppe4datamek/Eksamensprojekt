@@ -53,5 +53,10 @@ namespace Eksamensprojekt
         {
             this.Frame.Navigate(typeof(Fandrenge__Fanpiger));
         }
+
+        private void Rum6_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DenRødeTråd));
+        }
     }
 }
