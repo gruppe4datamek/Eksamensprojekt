@@ -7,7 +7,7 @@ using Windows.Media.Playback;
 
 namespace Eksamensprojekt
 {
-    public class Lydfiler
+    public class Lydfiler // Osman
     {
         private int _lydfilsId;
         private MediaPlayer mediaPlayer = new MediaPlayer();

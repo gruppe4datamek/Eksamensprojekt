@@ -122,6 +122,9 @@
     <Compile Include="DanseFeber.xaml.cs">
       <DependentUpon>DanseFeber.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Fandrenge, Fanpiger.xaml.cs">
+      <DependentUpon>Fandrenge, Fanpiger.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\Artefakt.cs" />
     <Compile Include="Model\Beskrivelse.cs" />
     <Compile Include="LadDerVaereLys.xaml.cs">
@@ -201,6 +204,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="DanseFeber.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Fandrenge, Fanpiger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="Eksamensprojekt.Fandrenge__Fanpiger"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Eksamensprojekt"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="26*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource ="Assets/Rum 5.png" Stretch="Fill"></ImageBrush>
+        </Grid.Background>
+        <RelativePanel Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+        </RelativePanel>
+        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="150" Opacity="0.6" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
+            <SplitView.Pane>
+                <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
+                    <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <StackPanel Margin="150,0,0,0" Background="Transparent">
+
+                    <Button Name="Button1" Width="100" Height="100" Margin="265,435,0,0" Background="Transparent" Click="Popup1_OnClick">
+                        <Image Source="Assets/1 tal v1.png"></Image>
+                    </Button>
+                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
+                        <StackPanel Background="LightBlue">
+                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
+
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
+
+                </StackPanel>
+
+            </SplitView.Content>
+
+        </SplitView>
+    </Grid>
+</Page>
