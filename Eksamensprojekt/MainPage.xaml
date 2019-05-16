@@ -9,7 +9,7 @@
     
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Height="768" Width="432">
         <Grid.RowDefinitions>
             <RowDefinition Height="41*"/>
             <RowDefinition Height="343*"/>
