@@ -20,7 +20,7 @@
         <RelativePanel Margin="0,0,0,0">
             <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
         </RelativePanel>
-        <SplitView Name="SplitView" IsPaneOpen="True" OpenPaneLength="150" Opacity="0.6">
+        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="150" Opacity="0.6">
             <SplitView.Pane>
                 <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
                     <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
@@ -28,6 +28,9 @@
                     <Button Margin="-107,0,0,-130" Width="95" Height="auto" FontSize="15" Background="DarkGoldenrod">Dansefeber
                     </Button>
                     <Image Source="Assets/Dansefeber.png" Height="auto" Margin="-10,0,0,-130" Width="30" ></Image>
+
+                    <Button Margin="-126,0,0,-260" Width="95" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
+                    
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
