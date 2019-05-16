@@ -35,6 +35,7 @@
                     </Button>
                     <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
                         <StackPanel Background="LightBlue">
+                        <MediaElement Name="PU1" Source="media/Lad der være lys.m4a"></MediaElement>
                             <TextBlock Text="test" FontSize="25" TextAlignment="Center">
 
                             </TextBlock>
