@@ -27,7 +27,7 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel Margin="0,0,0,0" Background="Transparent">
+                <StackPanel Margin="150,0,0,0" Background="Transparent">
 
                     <Button Name="Button1" Width="100" Height="100" Margin="265,435,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>

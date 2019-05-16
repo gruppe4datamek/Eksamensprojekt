@@ -28,14 +28,14 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel Margin="0,0,0,0" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel Margin="150,0,0,0" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
                     <Button Name="Button1" Width="100" Height="100" Margin="195,285,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
                     <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
                         <StackPanel Background="LightBlue">
-                        <MediaElement Name="PU1" Source="media/Lad der være lys.m4a"></MediaElement>
+                            <MediaElement Source="media/Lad der være lys.m4a"></MediaElement>
                             <TextBlock Text="test" FontSize="25" TextAlignment="Center">
 
                             </TextBlock>
@@ -48,7 +48,7 @@
                     <Popup Margin="0,-500,0,0" Width="200" Height="450" Name="Popup2" >
 
                         <StackPanel Background="LightBlue">
-
+                            <MediaElement Source="media/"></MediaElement>
                             <TextBlock Text="test " FontSize="25" TextWrapping="Wrap">
 
                             </TextBlock>
