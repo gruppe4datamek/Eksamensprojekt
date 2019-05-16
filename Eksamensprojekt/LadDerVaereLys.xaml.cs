@@ -28,6 +28,7 @@ namespace Eksamensprojekt
         {
             this.InitializeComponent();
         }
+
         private void HamburgerButton_OnClick(object sender, RoutedEventArgs e)
         {
             this.SplitView.IsPaneOpen = !this.SplitView.IsPaneOpen;
@@ -42,9 +43,12 @@ namespace Eksamensprojekt
         {
             this.Popup1.IsOpen = !this.Popup1.IsOpen;
         }
+
         public void Popup2_OnClick(object sender, RoutedEventArgs e)
         {
             this.Popup2.IsOpen = !this.Popup2.IsOpen;
         }
+
+      
     }
 }
