@@ -49,5 +49,9 @@ namespace Eksamensprojekt
             this.Frame.Navigate(typeof(MusikalskeStroemme));
         }
 
+        private void Rum5_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Fandrenge__Fanpiger));
+        }
     }
 }
