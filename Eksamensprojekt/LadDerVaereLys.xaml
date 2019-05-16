@@ -22,15 +22,26 @@
         </RelativePanel>
         <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="150" Opacity="0.6">
             <SplitView.Pane>
-                <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                    <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
-                    <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
-                    <Button Margin="-107,0,0,-130" Width="95" Height="auto" FontSize="15" Background="DarkGoldenrod">Dansefeber
-                    </Button>
-                    <Image Source="Assets/Dansefeber.png" Height="auto" Margin="-10,0,0,-130" Width="30" ></Image>
+                <StackPanel>
 
-                    <Button Margin="-126,0,0,-260" Width="95" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
-                    
+                    <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+
+                        <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
+                        <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
+                    </StackPanel >
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="Dansefeber" Margin="0,0,0,0" Width="95" Height="auto" FontSize="15" Background="DarkGoldenrod">Dansefeber
+                        </Button>
+                        <Image Source="Assets/Dansefeber.png" Height="auto" Margin="0,0,0,0" Width="30" ></Image>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="Skælv" Margin="0,0,0,0" Width="95" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
+                        <Image Source="Assets/Skælv.png" Height="auto" Width="30"></Image>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        
+
+                    </StackPanel>
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>

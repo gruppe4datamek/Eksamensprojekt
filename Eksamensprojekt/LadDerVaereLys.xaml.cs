@@ -48,7 +48,14 @@ namespace Eksamensprojekt
         {
             this.Popup2.IsOpen = !this.Popup2.IsOpen;
         }
+        public void Dansefeber(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DanseFeber));
+        }
 
-      
+        public void Skælv(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Skælv));
+        }
     }
 }
