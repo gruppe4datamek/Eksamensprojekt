@@ -12,7 +12,7 @@
     <myModel:ClassViewModel></myModel:ClassViewModel>
 </!-->
 
-    <Grid>
+    <Grid Height="768" Width="432">
 
         <Grid.Background>
             <ImageBrush ImageSource ="Assets/Rum 1.png" Stretch="fill"></ImageBrush>
@@ -32,13 +32,14 @@
             </SplitView.Pane>
             <SplitView.Content>
                 <StackPanel Margin="150,0,0,0" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <MediaElement Source="media/Lad der være lys.m4a"></MediaElement>
 
                     <Button Name="Button1" Width="100" Height="100" Margin="195,285,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
                     <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
                         <StackPanel Background="LightBlue">
-                            <MediaElement Source="media/Lad der være lys.m4a"></MediaElement>
+                            <MediaElement Source="media/lysshows maskine.m4a"></MediaElement>
                             <TextBlock Text="test" FontSize="25" TextAlignment="Center">
 
                             </TextBlock>
