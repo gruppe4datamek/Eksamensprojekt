@@ -58,10 +58,6 @@ namespace Eksamensprojekt
             this.Frame.Navigate(typeof(Skælv));
         }
 
-        //public void blikfang(object sender, RoutedEventArgs e)
-        //{
-        //    this.Frame.Navigate(typeof(Blikfang));
-        //}
         public void MusikalskeStrømme(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MusikalskeStroemme));
@@ -70,21 +66,22 @@ namespace Eksamensprojekt
         {
             this.Frame.Navigate(typeof(DenRødeTråd));
         }
-        //public void DenRødeTråd(object sender, RoutedEventArgs e)
-        //{
-        //    this.Frame.Navigate(typeof());
-        //}
-        //public void ElektriskIntimitet(object sender, RoutedEventArgs e)
-        //{
-        //    this.Frame.Navigate(typeof(ElektriskIntimitet));
-        //}
+        public void DenRødeTråd(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DenRødeTråd));
+        }
+
+        public void ElektriskIntimitet(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DenRødeTråd));
+        }
         //public void Rotation(object sender, RoutedEventArgs e)
         //{
-        //    this.Frame.Navigate(typeof(rotation));
+        //    this.Frame.Navigate(typeof(j));
         //}
         //public void JagtenPåDenFedeLyd(object sender, RoutedEventArgs e)
         //{
-        //    this.Frame.Navigate(typeof(JagtenPåDenFedeLyd));
+        //    this.Frame.Navigate(typeof());
         //}
         //public void Demoteket(object sender, RoutedEventArgs e)
         //{
