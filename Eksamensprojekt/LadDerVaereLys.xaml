@@ -19,7 +19,7 @@
         </Grid.Background>
         <RelativePanel Margin="0,0,0,706" Background="DarkGoldenrod" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="40" Content="&#xE700;" Margin="10,5,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
-            <TextBlock Text="Lad Der Være Lys" Margin="96,5,-202.6,-30.8" FontSize="40" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <TextBlock Text="Lad Der Være Lys" Margin="96,5,0,-30.667" FontSize="40" HorizontalAlignment="Left" Width="302" SelectionChanged="TextBlock_SelectionChanged"/>
         </RelativePanel>
         <SplitView Name="mySplitView" Margin="0,62,10,29" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="2">
             <SplitView.Pane>
@@ -39,7 +39,7 @@
                         <Button Click="Skælv" Margin="0,0,0,0" Width="159" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
                         <Image Source="Assets/Skælv.png" Height="auto" Width="30"></Image>
                     </StackPanel>
-                    
+
                     <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
                         <Button Click="MusikalskeStrømme" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Musikalske Strømme</Button>
                         <Image Source="Assets/Musikalske stømme.png" Height="auto" Width="30" ></Image>
@@ -60,9 +60,9 @@
                         <Button Click="DenFedeLyd" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den Fede Lyd</Button>
                         <Image Source="Assets/Jagtten på den fede lyd.png" Height="auto" Width="30" ></Image>
                     </StackPanel>
-                    
-                    
-                    
+
+
+
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>

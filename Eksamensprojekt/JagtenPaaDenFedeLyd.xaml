@@ -15,6 +15,7 @@
             <ColumnDefinition Width="26*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
+
             <ImageBrush ImageSource ="Assets/Rum 9.png" Stretch="Fill"></ImageBrush>
         </Grid.Background>
         <RelativePanel Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">

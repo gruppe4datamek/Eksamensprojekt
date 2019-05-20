@@ -83,6 +83,11 @@ namespace Eksamensprojekt
         {
             this.Frame.Navigate(typeof(JagtenPaaDenFedeLyd));
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
         //public void Rotation(object sender, RoutedEventArgs e)
         //{
         //    this.Frame.Navigate(typeof(j));
