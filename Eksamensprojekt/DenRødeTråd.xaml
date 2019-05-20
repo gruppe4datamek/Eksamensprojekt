@@ -9,17 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="26*"/>
-        </Grid.ColumnDefinitions>
+
         <Grid.Background>
             <ImageBrush ImageSource ="Assets/Rum 7 og 8.png" Stretch="Fill"></ImageBrush>
         </Grid.Background>
-        <RelativePanel Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <RelativePanel Margin="0,0,0,706" Background="DarkGoldenrod" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="40" Content="&#xE700;" Margin="10,5,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+            <TextBlock Text="Den Røde Tråd" Margin="109,5,-215.6,-30" FontSize="40"/>
         </RelativePanel>
-        <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="210" Opacity="0.7" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
+        <SplitView Name="mySplitView" Margin="0,62,10,29" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="2">
             <SplitView.Pane>
                 <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
                     <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
