@@ -158,6 +158,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Eksamensprojekt_TemporaryKey.pfx" />
+    <Content Include="Assets\2 tal.png" />
     <Content Include="Assets\Rum 10.png" />
     <Content Include="Assets\Rum 11.png" />
     <Content Include="Assets\Rum 6.2.png" />

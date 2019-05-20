@@ -71,29 +71,38 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel Margin="150,0,0,0" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel Margin="50,0,0,0" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                     <MediaElement Source="media/Lad der være lys.m4a"></MediaElement>
 
-                    <Button Name="Button1" Width="100" Height="100" Margin="195,285,0,0" Background="Transparent" Click="Popup1_OnClick">
+                    <Button Name="Button1" Width="100" Height="100" Margin="150,285,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
-                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
-                        <StackPanel Background="LightBlue">
+                    <Popup Margin="-200,-275,0,0" Width="250" Height="400" Name="Popup1">
+                        <StackPanel Margin="50,0,50,0" Background="White" BorderBrush="Black">
                             <MediaElement Source="media/lysshows maskine.m4a"></MediaElement>
-                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
-
+                            <TextBlock FontSize="25" TextAlignment="Left" TextWrapping="Wrap">
+                                Lysshow maskinen fremstiller <LineBreak /> 
+                                forskellige former for lysshow. <LineBreak />
+                                Denne maskine er interaktiv,<LineBreak />
+                                så man kan prøve at lege med <LineBreak />
+                                lyseffekter, som til en koncert.
                             </TextBlock>
                         </StackPanel>
                     </Popup>
 
-                    <Button Name="Button2" Width="100" Height="100" Margin="332,-860,0,0" Background="Transparent" Click="Popup2_OnClick">
+                    <Button Name="Button2" Width="100" Height="100" Margin="285,-865,0,0" Background="Transparent" Click="Popup2_OnClick">
                         <Image Source="Assets/2 tal (2).png"></Image>
                     </Button>
-                    <Popup Margin="0,-500,0,0" Width="200" Height="450" Name="Popup2" >
+                    <Popup Margin="-115,-375,0,0" Width="200" Height="400" Name="Popup2" >
 
-                        <StackPanel Background="LightBlue">
-                            <MediaElement Source="media/"></MediaElement>
-                            <TextBlock Text="test " FontSize="25" TextWrapping="Wrap">
+                        <StackPanel Background="White">
+                            <MediaElement Source="media/gammelt lysshows kamera.m4a"></MediaElement>
+                            <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
+                                Det gamle kamera blev brugt <LineBreak />
+                                til at lave lysshow i fysisk <LineBreak />
+                                form før det blev digitaliseret. <LineBreak />
+                                Farverne bliver dannet ved <LineBreak />
+                                opvarmning af diverse olier.
 
                             </TextBlock>
                         </StackPanel>
