@@ -38,10 +38,7 @@
                         <Button Click="Skælv" Margin="0,0,0,0" Width="159" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
                         <Image Source="Assets/Skælv.png" Height="auto" Width="30"></Image>
                     </StackPanel>
-                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                        <Button  Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Blikfang</Button>
-                        <Image Source="Assets/Blikfang.png" Height="auto" Width="30"></Image>
-                    </StackPanel>
+                    
                     <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
                         <Button Click="MusikalskeStrømme" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Musikalske Strømme</Button>
                         <Image Source="Assets/Musikalske stømme.png" Height="auto" Width="30" ></Image>
@@ -59,8 +56,8 @@
                         <Image Source="Assets/Elektrisk intimitet .png" Height="auto" Width="30" ></Image>
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                        <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Rotation</Button>
-                        <Image Source="Assets/Rotation.png" Height="auto" Width="30" ></Image>
+                        <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den Fede Lyd</Button>
+                        <Image Source="Assets/Jagtten på den fede lyd.png" Height="auto" Width="30" ></Image>
                     </StackPanel>
                     
                     

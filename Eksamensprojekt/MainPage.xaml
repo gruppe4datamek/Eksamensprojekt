@@ -41,10 +41,10 @@
                     <Image Margin="-44,0,0,125" Width="45" Height="Auto" Source="Assets/Musikalske stømme.png"></Image>
 
                     <Button Click="Rum5_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-306,270,0,0" Height="auto" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top">Fandrenge, Fanpiger</Button>
-                    <Image Margin="-60,0,0,-25" Width="43" Height="auto" Source="Assets/Den røde tråd.png"></Image>
+                    <Image Margin="-60,0,0,-25" Width="43" Height="auto" Source="Assets/Fandrenge, fanpiger.png"></Image>
 
                     <Button Click="Rum6_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-311,150,0,0" Height="auto" Width="250">Den Røde Tråd</Button>
-                    <Image Margin="-60,20,0,-115" Width="35" Height="auto" Source="Assets/Fandrenge, fanpiger.png"></Image>
+                    <Image Margin="-60,20,0,-115" Width="35" Height="auto" Source="Assets/Den røde tråd.png"></Image>
 
                     <Button Click="Rum7_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-310,340,10,60" Height="auto" Width="250">Elektrisk Intimitet</Button>
                     <Image Margin="-60,0,0,-280" Width="40" Height="auto" Source="Assets/Elektrisk intimitet .png"></Image>

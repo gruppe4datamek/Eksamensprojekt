@@ -61,11 +61,14 @@ namespace Eksamensprojekt
         public void MusikalskeStrømme(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MusikalskeStroemme));
+        
         }
+
         public void Fandrenge_fanpiger(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(DenRødeTråd));
+            this.Frame.Navigate(typeof(Fandrenge__Fanpiger));
         }
+
         public void DenRødeTråd(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(DenRødeTråd));
@@ -73,7 +76,12 @@ namespace Eksamensprojekt
 
         public void ElektriskIntimitet(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(DenRødeTråd));
+            this.Frame.Navigate(typeof(ElektriskIntimitet));
+        }
+
+        public void DenFedeLyd(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(JagtenPaaDenFedeLyd));
         }
         //public void Rotation(object sender, RoutedEventArgs e)
         //{
