@@ -31,7 +31,7 @@ namespace Eksamensprojekt
 
         private void HamburgerButton_OnClick(object sender, RoutedEventArgs e)
         {
-            this.SplitView.IsPaneOpen = !this.SplitView.IsPaneOpen;
+            this.mySplitView.IsPaneOpen = !this.mySplitView.IsPaneOpen;
         }
 
         private void MainPage_OnClick(object sender, RoutedEventArgs e)
