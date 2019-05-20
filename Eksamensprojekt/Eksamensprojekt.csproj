@@ -125,8 +125,14 @@
     <Compile Include="DenRødeTråd.xaml.cs">
       <DependentUpon>DenRødeTråd.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ElektriskIntimitet.xaml.cs">
+      <DependentUpon>ElektriskIntimitet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Fandrenge, Fanpiger.xaml.cs">
       <DependentUpon>Fandrenge, Fanpiger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JagtenPaaDenFedeLyd.xaml.cs">
+      <DependentUpon>JagtenPaaDenFedeLyd.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Artefakt.cs" />
     <Compile Include="Model\Beskrivelse.cs" />
@@ -214,7 +220,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ElektriskIntimitet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Fandrenge, Fanpiger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JagtenPaaDenFedeLyd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
