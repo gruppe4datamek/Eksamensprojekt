@@ -48,7 +48,44 @@ namespace Eksamensprojekt
         {
             this.Popup2.IsOpen = !this.Popup2.IsOpen;
         }
+        public void Dansefeber(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DanseFeber));
+        }
 
-      
+        public void Skælv(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Skælv));
+        }
+
+        public void MusikalskeStrømme(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MusikalskeStroemme));
+        }
+        public void Fandrenge_fanpiger(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DenRødeTråd));
+        }
+        public void DenRødeTråd(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DenRødeTråd));
+        }
+
+        public void ElektriskIntimitet(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DenRødeTråd));
+        }
+        //public void Rotation(object sender, RoutedEventArgs e)
+        //{
+        //    this.Frame.Navigate(typeof(j));
+        //}
+        //public void JagtenPåDenFedeLyd(object sender, RoutedEventArgs e)
+        //{
+        //    this.Frame.Navigate(typeof());
+        //}
+        //public void Demoteket(object sender, RoutedEventArgs e)
+        //{
+        //    this.Frame.Navigate(typeof(Demoteket));
+        //}
     }
 }
