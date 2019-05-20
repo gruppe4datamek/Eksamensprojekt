@@ -26,6 +26,7 @@ namespace Eksamensprojekt
         {
             this.InitializeComponent();
         }
+
         private void HamburgerButton_OnClick(object sender, RoutedEventArgs e)
         {
             this.mySplitView.IsPaneOpen = !this.mySplitView.IsPaneOpen;
@@ -40,9 +41,47 @@ namespace Eksamensprojekt
         {
             this.Popup1.IsOpen = !this.Popup1.IsOpen;
         }
+
         public void Popup2_OnClick(object sender, RoutedEventArgs e)
         {
             this.Popup2.IsOpen = !this.Popup2.IsOpen;
+        }
+
+
+        public void LadDerVæreLyd(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LadDerVaereLys));
+        }
+
+        public void Skælv(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Skælv));
+        }
+
+        public void MusikalskeStrømme(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MusikalskeStroemme));
+
+        }
+
+        public void Fandrenge_fanpiger(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Fandrenge__Fanpiger));
+        }
+
+        public void DenRødeTråd(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DenRødeTråd));
+        }
+
+        public void ElektriskIntimitet(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ElektriskIntimitet));
+        }
+
+        public void DenFedeLyd(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(JagtenPaaDenFedeLyd));
         }
     }
 }

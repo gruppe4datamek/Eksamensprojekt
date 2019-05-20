@@ -25,7 +25,7 @@
             <SplitView.Pane>
                 <StackPanel>
 
-                    <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
 
                         <Button Click="MainPage_OnClick" Background="DarkGoldenrod" Width="159">Forside</Button>
                         <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="1,0,0,0"></Image>
