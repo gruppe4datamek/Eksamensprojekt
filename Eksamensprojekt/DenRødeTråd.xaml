@@ -14,7 +14,7 @@
             <ColumnDefinition Width="26*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource ="Assets/Rum 6.png" Stretch="Fill"></ImageBrush>
+            <ImageBrush ImageSource ="Assets/Rum 7 og 8.png" Stretch="Fill"></ImageBrush>
         </Grid.Background>
         <RelativePanel Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
