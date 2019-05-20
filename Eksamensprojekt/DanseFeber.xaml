@@ -41,10 +41,13 @@
                             </StackPanel>
                         </Popup>
 
+
                         <Button Name="Button2" Width="145" Height="145" Margin="-75,-765,0,0" Background="Transparent" Click="Popup2_OnClick">
                             <Image Source="Assets/2 tal.png"></Image>
                         </Button>
-                        <Popup Margin="0,-500,0,0" Width="200" Height="450" Name="Popup2" >
+                    
+                    
+                    <Popup Margin="0,-500,0,0" Width="200" Height="450" Name="Popup2" >
 
                         <StackPanel Background="LightBlue">
                             <MediaElement></MediaElement>

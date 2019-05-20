@@ -25,7 +25,7 @@
             <SplitView.Pane>
                 <StackPanel>
 
-                    <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
 
                         <Button Click="MainPage_OnClick" Background="DarkGoldenrod" Width="159">Forside</Button>
                         <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="1,0,0,0"></Image>
@@ -39,7 +39,7 @@
                         <Button Click="Skælv" Margin="0,0,0,0" Width="159" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
                         <Image Source="Assets/Skælv.png" Height="auto" Width="30"></Image>
                     </StackPanel>
-                    
+
                     <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
                         <Button Click="MusikalskeStrømme" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Musikalske Strømme</Button>
                         <Image Source="Assets/Musikalske stømme.png" Height="auto" Width="30" ></Image>
@@ -60,9 +60,9 @@
                         <Button Click="DenFedeLyd" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den Fede Lyd</Button>
                         <Image Source="Assets/Jagtten på den fede lyd.png" Height="auto" Width="30" ></Image>
                     </StackPanel>
-                    
-                    
-                    
+
+
+
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
