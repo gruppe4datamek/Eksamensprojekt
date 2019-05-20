@@ -66,12 +66,12 @@ namespace Eksamensprojekt
 
         public void Fandrenge_fanpiger(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Fandrenge__Fanpiger));
+            this.Frame.Navigate(typeof(DenRødeTråd));
         }
 
         public void DenRødeTråd(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(DenRødeTråd));
+            this.Frame.Navigate(typeof(ElektriskIntimitet));
         }
 
         public void ElektriskIntimitet(object sender, RoutedEventArgs e)
