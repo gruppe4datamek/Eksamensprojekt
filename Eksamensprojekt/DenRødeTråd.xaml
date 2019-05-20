@@ -17,7 +17,7 @@
             <ImageBrush ImageSource ="Assets/Rum 7 og 8.png" Stretch="Fill"></ImageBrush>
         </Grid.Background>
         <RelativePanel Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="40" Content="&#xE700;" Margin="10,5,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+            <Button Name="HamburgerButton" Background="DarkGoldenrod" FontFamily="Segoe MDL2 Assets" FontSize="40" Content="&#xE700;" Margin="10,5,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
         </RelativePanel>
         <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="210" Opacity="0.7" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
             <SplitView.Pane>
