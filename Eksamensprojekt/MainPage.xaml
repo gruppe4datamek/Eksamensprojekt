@@ -28,28 +28,28 @@
         <SplitView Name="mySplitView" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.7" Margin="0,81,10,29" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <SplitView.Pane>
                 <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top" Height="600" Width="350" HorizontalAlignment="Stretch">
-                    <Button Click="Rum1_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="0,29,0,0" Width="245" HorizontalAlignment="Left" VerticalAlignment="Top" >Lad Der Være Lys</Button>
-                    <Image Margin="5,0,0,460" Width="40" Height="auto" Source="Assets/LadDerVaereLys.png"></Image>
+                    <Button Click="Rum1_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="0,2,0,0" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top" >Lad Der Være Lys</Button>
+                    <Image Margin="5,0,0,525" Width="32" Height="auto" Source="Assets/LadDerVaereLys.png"></Image>
 
-                    <Button Click="Rum2_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-290,-300,0,45" Width="245" >DanseFeber</Button>
-                    <Image Margin="-42,0,0,352" Width="40" Height="Auto" Source="Assets/Dansefeber.png"></Image>
+                    <Button Click="Rum2_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-277,-380,0,45" Width="240" >DanseFeber</Button>
+                    <Image Margin="-30,0,0,425" Width="32" Height="Auto" Source="Assets/Dansefeber.png"></Image>
 
-                    <Button Click="Rum3_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-290,150,0,0" Width="245" HorizontalAlignment="Left" VerticalAlignment="Top" >Skælv</Button>
-                    <Image Margin="-50,0,0,239" Width="65" Height="Auto" Source="Assets/Skælv.png"></Image>
+                    <Button Click="Rum3_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-279,100,0,0" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top" >Skælv</Button>
+                    <Image Margin="-50,0,0,330" Width="58" Height="Auto" Source="Assets/Skælv.png"></Image>
 
-                    <Button Click="Rum4_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-305,210,0,0" Width="245" HorizontalAlignment="Left" VerticalAlignment="Top" >MusikalskeStrømme</Button>
-                    <Image Margin="-44,0,0,125" Width="45" Height="Auto" Source="Assets/Musikalske stømme.png"></Image>
+                    <Button Click="Rum4_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-287,150,0,0" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top" >MusikalskeStrømme</Button>
+                    <Image Margin="-40,0,0,248" Width="45" Height="Auto" Source="Assets/Musikalske stømme.png"></Image>
 
-                    <Button Click="Rum5_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-306,270,0,0" Height="auto" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top">Fandrenge, Fanpiger</Button>
-                    <Image Margin="-60,0,0,-25" Width="43" Height="auto" Source="Assets/Den røde tråd.png"></Image>
+                    <Button Click="Rum5_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-289,200,0,0" Height="auto" Width="240" HorizontalAlignment="Left" VerticalAlignment="Top">Fandrenge, Fanpiger</Button>
+                    <Image Margin="-60,0,0,130" Width="22" Height="auto" Source="Assets/Fandrenge, fanpiger.png"></Image>
 
-                    <Button Click="Rum6_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-311,150,0,0" Height="auto" Width="250">Den Røde Tråd</Button>
-                    <Image Margin="-60,20,0,-115" Width="35" Height="auto" Source="Assets/Fandrenge, fanpiger.png"></Image>
+                    <Button Click="Rum6_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-290,-15,0,0" Height="auto" Width="240">Den Røde Tråd</Button>
+                    <Image Margin="-60,20,-10,30" Width="40" Height="auto" Source="Assets/Den røde tråd.png"></Image>
 
-                    <Button Click="Rum7_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-310,340,10,60" Height="auto" Width="250">Elektrisk Intimitet</Button>
-                    <Image Margin="-60,0,0,-280" Width="40" Height="auto" Source="Assets/Elektrisk intimitet .png"></Image>
-                    <Button Click="Rum9_OnClick" Background="DarkGoldenrod" FontSize="20" Margin="-310,330,10,-70" Height="auto" Width="250">Jagten på den fede lyd</Button>
-                    <Image Margin="-60,0,0,-400" Width="35" Height="auto" Source="Assets/Jagtten på den fede lyd.png"></Image>
+                    <Button Click="Rum7_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-290,150,10,60" Height="auto" Width="240">Elektrisk Intimitet</Button>
+                    <Image Margin="-50,0,0,-90" Width="40" Height="auto" Source="Assets/Elektrisk intimitet .png"></Image>
+                    <Button Click="Rum9_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-290,140,10,-70" Height="auto" Width="240">Jagten på den fede lyd</Button>
+                    <Image Margin="-60,0,0,-200" Width="35" Height="auto" Source="Assets/Jagtten på den fede lyd.png"></Image>
                 </StackPanel>
 
 
