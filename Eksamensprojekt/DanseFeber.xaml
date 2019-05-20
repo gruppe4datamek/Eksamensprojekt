@@ -10,51 +10,54 @@
 
 
     <Grid Height="768" Width="432">
-            <Grid.Background>
-                <ImageBrush ImageSource ="Assets/Rum 2.png" Stretch="Fill"></ImageBrush>
-            </Grid.Background>
-            <RelativePanel Margin="0,0,0,0">
-                <Button Name="HamburgerButton" Background="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Margin="10,23,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
-            </RelativePanel>
-            <SplitView Name="SplitView" IsPaneOpen="False" OpenPaneLength="210" Opacity="0.7">
-                <SplitView.Pane>
-                    <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                        <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
-                        <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
-                    </StackPanel>
-                </SplitView.Pane>
-                <SplitView.Content>
-                    <StackPanel Margin="150,0,0,0" Background="Transparent">
-                        <MediaElement Source="media/Dansefeber.m4a"></MediaElement>
+        <Grid.Background>
+            <ImageBrush ImageSource ="Assets/Rum 2.png" Stretch="Fill"></ImageBrush>
+        </Grid.Background>
+        <RelativePanel Margin="0,0,0,706" Background="DarkGoldenrod" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
+            <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="40" Content="&#xE700;" Margin="10,5,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+            <TextBlock Text="Danse Feber" Margin="135,5,-241.2,-30" FontSize="40"/>
+        </RelativePanel>
+        <SplitView Name="mySplitView" Margin="0,62,10,29" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="2">
+            <SplitView.Pane>
+                <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
+                    <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <StackPanel Margin="150,0,0,0" Background="Transparent">
+                    <MediaElement Source="media/Dansefeber.m4a"></MediaElement>
                     <Button Name="Button1" Width="100" Height="100" Margin="60,425,0,0" Background="Transparent" Click="Popup1_OnClick">
                             <Image Source="Assets/1 tal v1.png"></Image>
                         </Button>
-                        <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
-                            <StackPanel Background="LightBlue">
+                        <Popup Margin="-300,-300,0,0" Width="200" Height="300" Name="Popup1">
+                            <StackPanel Background="White">
                                 <MediaElement Source="media/Montre med videoer.m4a"></MediaElement>
-                                <TextBlock Text="test" FontSize="25" TextAlignment="Center">
-
+                                <TextBlock FontSize="25" TextAlignment="Center">
+                                    Med montre videoer af dansestile,<LineBreak /> 
+                                    kan der ses de forskellige dansestile <LineBreak /> 
+                                    gennem tiderne.
                                 </TextBlock>
                             </StackPanel>
                         </Popup>
 
-                        <Button Name="Button2" Width="100" Height="100" Margin="-50,-1050,0,0" Background="Transparent" Click="Popup2_OnClick">
-                            <Image Source="Assets/2 tal (2).png"></Image>
+                        <Button Name="Button2" Width="145" Height="145" Margin="-75,-765,0,0" Background="Transparent" Click="Popup2_OnClick">
+                            <Image Source="Assets/2 tal.png"></Image>
                         </Button>
                         <Popup Margin="0,-500,0,0" Width="200" Height="450" Name="Popup2" >
 
-                            <StackPanel Background="LightBlue">
-                                <MediaElement></MediaElement>
-                                <TextBlock Text="test " FontSize="25" TextWrapping="Wrap">
+                        <StackPanel Background="LightBlue">
+                            <MediaElement></MediaElement>
+                            <TextBlock Text="test " FontSize="25" TextWrapping="Wrap">
 
-                                </TextBlock>
-                            </StackPanel>
-                        </Popup>
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
 
-                    </StackPanel>
+                </StackPanel>
 
-                </SplitView.Content>
+            </SplitView.Content>
 
-            </SplitView>
-        </Grid>
+        </SplitView>
+    </Grid>
 </Page>
