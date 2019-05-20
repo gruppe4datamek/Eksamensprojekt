@@ -62,10 +62,7 @@
                         <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Rotation</Button>
                         <Image Source="Assets/Rotation.png" Height="auto" Width="30" ></Image>
                     </StackPanel>
-                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                        <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Jagten på den fede lyd</Button>
-                        <Image Source="Assets/Jagtten på den fede lyd.png" Height="auto" Width="30" ></Image>
-                    </StackPanel>
+                    
                     
                     
                 </StackPanel>
