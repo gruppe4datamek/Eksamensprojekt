@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Height="768" Width="432">
 
         <Grid.Background>
             <ImageBrush ImageSource ="Assets/Rum 7 og 8.png" Stretch="Fill"></ImageBrush>
