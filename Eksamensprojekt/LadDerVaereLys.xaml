@@ -16,9 +16,6 @@
 
         <Grid.Background>
             <ImageBrush ImageSource ="Assets/Rum 1.png" Stretch="fill">
-                <ImageBrush.RelativeTransform>
-                    <CompositeTransform CenterY="0.5" CenterX="0.5" TranslateX="0"/>
-                </ImageBrush.RelativeTransform>
                 <ImageBrush.Transform>
                     <CompositeTransform TranslateX="0" TranslateY="60"/>
                 </ImageBrush.Transform>
