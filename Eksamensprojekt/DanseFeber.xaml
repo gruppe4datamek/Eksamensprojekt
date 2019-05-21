@@ -18,13 +18,50 @@
             <TextBlock Text="Danse Feber" Margin="135,5,-241.2,-30" FontSize="40"/>
         </RelativePanel>
         <SplitView Name="mySplitView" Margin="0,62,10,29" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="2">
-            <SplitView.Pane>
-                <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                    <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
-                    <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
+        <SplitView.Pane>
+            <StackPanel>
+
+                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+
+                    <Button Click="MainPage_OnClick" Background="DarkGoldenrod" Width="159">Forside</Button>
+                    <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="1,0,0,0"></Image>
+                </StackPanel >
+                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="LadDerVæreLyd" Margin="0,0,0,0" Width="159" Height="auto" FontSize="15" Background="DarkGoldenrod">LadDerVæreLys
+                        </Button>
+                    <Image Source="Assets/LadDerVaereLys.png" Height="auto" Margin="0,0,0,0" Width="30" ></Image>
                 </StackPanel>
-            </SplitView.Pane>
-            <SplitView.Content>
+                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="Skælv" Margin="0,0,0,0" Width="159" Height="auto" FontSize="14" Background="DarkGoldenrod" >Skælv</Button>
+                    <Image Source="Assets/Skælv.png" Height="auto" Width="30"></Image>
+                </StackPanel>
+
+                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="MusikalskeStrømme" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Musikalske Strømme</Button>
+                    <Image Source="Assets/Musikalske stømme.png" Height="auto" Width="30" ></Image>
+                </StackPanel>
+                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Fandrenge, fanpiger</Button>
+                    <Image Source="Assets/Fandrenge, fanpiger.png" Height="auto" Width="30" ></Image>
+                </StackPanel>
+                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="DenRødeTråd" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den røde tråd</Button>
+                    <Image Source="Assets/Den røde tråd.png" Height="auto" Width="30" ></Image>
+                </StackPanel>
+                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="ElektriskIntimitet" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Elektrisk intimitet</Button>
+                    <Image Source="Assets/Elektrisk intimitet .png" Height="auto" Width="30" ></Image>
+                </StackPanel>
+                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="DenFedeLyd" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den Fede Lyd</Button>
+                    <Image Source="Assets/Jagtten på den fede lyd.png" Height="auto" Width="30" ></Image>
+                </StackPanel>
+
+
+
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
                 <StackPanel Margin="150,0,0,0" Background="Transparent">
                     <MediaElement Source="media/Dansefeber.m4a"></MediaElement>
                     <Button Name="Button1" Width="100" Height="100" Margin="60,365,0,0" Background="Transparent" Click="Popup1_OnClick">
