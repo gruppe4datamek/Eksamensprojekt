@@ -51,12 +51,14 @@
                     <Button Click="Rum9_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-290,140,10,-70" Height="auto" Width="240">Jagten på den fede lyd</Button>
                     <Image Margin="-60,0,0,-200" Width="35" Height="auto" Source="Assets/Jagtten på den fede lyd.png"></Image>
                 </StackPanel>
-
+                
 
 
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel HorizontalAlignment="Stretch" Margin="248,0,0,0" VerticalAlignment="Stretch" ></StackPanel>
+                <StackPanel HorizontalAlignment="Stretch" Margin="248,0,0,0" VerticalAlignment="Stretch" >
+                    <Button Click="Rum1_OnClick" Background="DarkOrange" FontSize="35" Margin="-100,250,0,0" Width="150" Height="125" HorizontalAlignment="Left" VerticalAlignment="Top"  >START</Button>
+                </StackPanel>
             </SplitView.Content>
         </SplitView>
 
