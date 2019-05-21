@@ -11,11 +11,15 @@
     <Grid Height="768" Width="432">
 
         <Grid.Background>
-            <ImageBrush ImageSource ="Assets/Rum 7 og 8.png" Stretch="Fill"></ImageBrush>
+            <ImageBrush ImageSource ="Assets/Rum 6.2.png" Stretch="Fill">
+                <ImageBrush.Transform>
+                    <CompositeTransform TranslateX="0" TranslateY="60"/>
+                </ImageBrush.Transform>
+            </ImageBrush>
         </Grid.Background>
         <RelativePanel Margin="0,0,0,706" Background="DarkGoldenrod" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="40" Content="&#xE700;" Margin="10,5,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
-            <TextBlock Text="Den Røde Tråd" Margin="73,5,-179.2,-30" FontSize="38"/>
+            <TextBlock Text="Fandrenge og FanPiger" Margin="73,5,-179.2,-30" FontSize="32"/>
         </RelativePanel>
         <SplitView Name="mySplitView" Margin="0,62,10,29" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="2">
             <SplitView.Pane>
