@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace Eksamensprojekt
 {
-   public class Artefakt
+    
+    public class Artefakt
     {
+        private string _navn;
+
+       
+        public Artefakt(string navn)
+        {
+            Navn = navn;
+        }
+        public string Navn { get => _navn; set => _navn = value; }
+
 
     }
 }
