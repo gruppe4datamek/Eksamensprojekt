@@ -15,7 +15,14 @@
     <Grid Height="768" Width="432">
 
         <Grid.Background>
-            <ImageBrush ImageSource ="Assets/Rum 1.png" Stretch="fill"></ImageBrush>
+            <ImageBrush ImageSource ="Assets/Rum 1.png" Stretch="fill">
+                <ImageBrush.RelativeTransform>
+                    <CompositeTransform CenterY="0.5" CenterX="0.5" TranslateX="0"/>
+                </ImageBrush.RelativeTransform>
+                <ImageBrush.Transform>
+                    <CompositeTransform TranslateX="0" TranslateY="60"/>
+                </ImageBrush.Transform>
+            </ImageBrush>
         </Grid.Background>
         <RelativePanel Margin="0,0,0,706" Background="DarkGoldenrod" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
             <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="40" Content="&#xE700;" Margin="10,5,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
