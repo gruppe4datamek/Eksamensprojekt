@@ -39,5 +39,39 @@ namespace Eksamensprojekt
         {
             this.mySplitView.IsPaneOpen = !this.mySplitView.IsPaneOpen;
         }
+        public void LadDerVæreLyd(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LadDerVaereLys));
+        }
+
+        public void Skælv(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Skælv));
+        }
+
+        public void MusikalskeStrømme(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MusikalskeStroemme));
+
+        }
+
+        public void DenRødeTråd(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DenRødeTråd));
+        }
+
+        public void ElektriskIntimitet(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ElektriskIntimitet));
+        }
+
+        public void FandrengeFanpiger(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Fandrenge__Fanpiger));
+        }
+        private void DanseFeber(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DanseFeber));
+        }
     }
 }
