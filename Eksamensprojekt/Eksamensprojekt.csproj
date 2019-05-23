@@ -136,8 +136,8 @@
     </Compile>
     <Compile Include="Model\Artefakt.cs" />
     <Compile Include="Model\Beskrivelse.cs" />
-    <Compile Include="LadDerVaereLys.xaml.cs">
-      <DependentUpon>LadDerVaereLys.xaml</DependentUpon>
+    <Compile Include=".xaml.cs">
+      <DependentUpon>JagtenPåDenFedeLyd.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Lydfiler.cs" />
     <Compile Include="MainPage.xaml.cs">
@@ -233,7 +233,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="LadDerVaereLys.xaml">
+    <Page Include="JagtenPåDenFedeLyd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
