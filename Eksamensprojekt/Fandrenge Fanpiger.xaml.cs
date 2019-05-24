@@ -32,6 +32,16 @@ namespace Eksamensprojekt
             this.Popup1.IsOpen = !this.Popup1.IsOpen;
         }
 
+        public void Popup2_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Popup2.IsOpen = !this.Popup2.IsOpen;
+        }
+
+        public void Popup3_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Popup3.IsOpen = !this.Popup3.IsOpen;
+        }
+
         private void MainPage_OnClick(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
