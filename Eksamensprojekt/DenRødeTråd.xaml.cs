@@ -19,7 +19,7 @@ namespace Eksamensprojekt
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    /// </summa7ry>
     public sealed partial class DenRødeTråd : Page
     {
         public DenRødeTråd()
