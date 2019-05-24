@@ -13,7 +13,7 @@
 
         <Grid.Background>
 
-            <ImageBrush ImageSource ="Assets/Rum 9.png" Stretch="Fill">
+            <ImageBrush ImageSource ="Assets/Rum 10.png" Stretch="Fill">
                 <ImageBrush.Transform>
                     <CompositeTransform TranslateX="0" TranslateY="60"/>
                 </ImageBrush.Transform>
@@ -70,7 +70,7 @@
             <SplitView.Content>
                 <StackPanel Margin="150,0,0,0" Background="Transparent">
 
-                    <Button Name="Button1" Width="100" Height="100" Margin="-85,325,0,0" Background="Transparent" Click="Popup1_OnClick">
+                    <Button Name="Button1" Width="100" Height="100" Margin="0,325,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
                     <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
