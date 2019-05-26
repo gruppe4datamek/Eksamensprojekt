@@ -91,5 +91,9 @@
             </SplitView.Content>
 
         </SplitView>
+        <StackPanel Margin="0,717,0,0 " Background="Transparent">
+           
+            
+        </StackPanel>
     </Grid>
 </Page>

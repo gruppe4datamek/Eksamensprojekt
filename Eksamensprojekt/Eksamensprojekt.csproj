@@ -159,6 +159,12 @@
     </AppxManifest>
     <None Include="Eksamensprojekt_TemporaryKey.pfx" />
     <Content Include="Assets\2 tal.png" />
+    <Content Include="Assets\grå pil højre.png" />
+    <Content Include="Assets\grå pil venstre.png" />
+    <Content Include="Assets\pil højre 2.png" />
+    <Content Include="Assets\pil højre.png" />
+    <Content Include="Assets\pil venstre 2.png" />
+    <Content Include="Assets\pil venstre.png" />
     <Content Include="Assets\Rum 10.png" />
     <Content Include="Assets\Rum 11.png" />
     <Content Include="Assets\Rum 6.2.png" />
