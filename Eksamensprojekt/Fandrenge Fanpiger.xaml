@@ -73,7 +73,7 @@
                 <Popup Margin="-100,-175,125,0" Width="150" Height="300" Name="Popup1">
                     <StackPanel Background="White">
                         <MediaElement></MediaElement>
-                        <TextBlock Text="test" FontSize="25" TextAlignment="Center">
+                        <TextBlock FontSize="25" TextAlignment="Center">
                          her kan du se hvor <LineBreak />
                          højt du kan råbe <LineBreak />
                          ind i maskinen og <LineBreak />

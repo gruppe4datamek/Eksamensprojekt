@@ -67,7 +67,7 @@
                     <Button Name="Button1" Width="100" Height="100" Margin="60,365,0,0" Background="Transparent" Click="Popup1_OnClick">
                             <Image Source="Assets/1 tal v1.png"></Image>
                         </Button>
-                        <Popup Margin="-300,-300,0,0" Width="200" Height="300" Name="Popup1">
+                        <Popup Margin="-300,-200,0,0" Width="200" Height="300" Name="Popup1">
                             <StackPanel Background="White">
                                 <MediaElement Source="media/Montre med videoer.m4a"></MediaElement>
                                 <TextBlock FontSize="25" TextAlignment="Center">
@@ -79,17 +79,21 @@
                         </Popup>
 
 
-                        <Button Name="Button2" Width="145" Height="145" Margin="-75,-765,0,0" Background="Transparent" Click="Popup2_OnClick">
+                        <Button Name="Button2" Width="145" Height="145" Margin="-75,-950,0,0" Background="Transparent" Click="Popup2_OnClick">
                             <Image Source="Assets/2 tal.png"></Image>
                         </Button>
                     
                     
-                    <Popup Margin="0,-500,0,0" Width="200" Height="450" Name="Popup2" >
+                    <Popup Margin="-100,-400,0,0" Width="200" Height="450" Name="Popup2" >
 
-                        <StackPanel Background="LightBlue">
+                        <StackPanel Background="White">
                             <MediaElement></MediaElement>
-                            <TextBlock Text="test " FontSize="25" TextWrapping="Wrap">
-
+                            <TextBlock FontSize="25" TextWrapping="Wrap">
+                                Ved dansemaskinen kan <LineBreak />
+                                du selv prøve de <LineBreak />
+                                forskellige dansestile <LineBreak />
+                                og få respons på hvor <LineBreak />
+                                godt du danser.
                             </TextBlock>
                         </StackPanel>
                     </Popup>

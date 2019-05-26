@@ -73,10 +73,15 @@
                     <Button Name="Button1" Width="100" Height="100" Margin="0,325,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
-                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
-                        <StackPanel Background="LightBlue">
-                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
-
+                    <Popup Margin="-285,-485,0,0" Width="150" Height="300" Name="Popup1">
+                        <StackPanel Background="White">
+                            <TextBlock FontSize="25" TextAlignment="Center">
+                             I de forskellige montre <LineBreak />
+                             kan der ses de forskellige <LineBreak />
+                             artefakter, som sangerne <LineBreak />
+                             havde på. Her ses det tøj <LineBreak />
+                             og udstyr de brugte under <LineBreak />
+                             deres optræden.
                             </TextBlock>
                         </StackPanel>
                     </Popup>

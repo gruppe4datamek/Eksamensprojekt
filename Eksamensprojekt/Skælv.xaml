@@ -67,10 +67,16 @@
                     <Button Name="Button1" Width="100" Height="100" Margin="100,375,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
-                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
-                        <StackPanel Background="LightBlue">
-                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
-
+                    <Popup Margin="0,-455,0,0" Width="150" Height="300" Name="Popup1">
+                        <StackPanel Background="White">
+                            <TextBlock FontSize="25" TextAlignment="Center">
+                                I de forskellige <LineBreak />
+                                montre er der <LineBreak />
+                                artefakter fra <LineBreak />
+                                før i tiden som <LineBreak />
+                                har relevans til <LineBreak />
+                                de forskellige <LineBreak />
+                                subkulturer.
                             </TextBlock>
                         </StackPanel>
                     </Popup>
