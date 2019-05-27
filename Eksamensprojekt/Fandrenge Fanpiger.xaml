@@ -65,33 +65,35 @@
 
                 </StackPanel>
             </SplitView.Pane>
-            <StackPanel Margin="0,0,0,-25" Background="Transparent">
-
-                <Button Name="Button1" Width="100" Height="100" Margin="285,315,0,0" Background="Transparent" Click="Popup1_OnClick">
-                    <Image Source="Assets/1 tal v1.png"></Image>
-                </Button>
-                <Popup Margin="-100,-175,125,0" Width="150" Height="300" Name="Popup1">
-                    <StackPanel Background="Goldenrod">
-                        <MediaElement></MediaElement>
-                        <TextBlock FontSize="25" TextAlignment="Center">
+            <SplitView.Content>
+                <StackPanel>
+                <StackPanel Margin="0,0,0,-25" Background="Transparent">
+                    <MediaElement Source="media/fandrenge og fanpiger.m4a"></MediaElement>
+                    <Button Name="Button1" Width="100" Height="100" Margin="285,315,0,0" Background="Transparent" Click="Popup1_OnClick">
+                        <Image Source="Assets/1 tal v1.png"></Image>
+                    </Button>
+                    <Popup Margin="-100,-175,125,0" Width="150" Height="300" Name="Popup1">
+                        <StackPanel Background="Goldenrod">
+                            <MediaElement Source="media/råbe maskinen.m4a"></MediaElement>
+                            <TextBlock FontSize="25" TextAlignment="Center">
                          her kan du se hvor <LineBreak />
                          højt du kan råbe <LineBreak />
                          ind i maskinen og <LineBreak />
                          få det sammenlignet <LineBreak />
                          med fans lydniveau <LineBreak />
                          ved forskellige koncerter.
-                        </TextBlock>
-                    </StackPanel>
-                </Popup>
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
 
-                <Button Name="Button2" Width="100" Height="100" Margin="275,-950,0,0" Background="Transparent" Click="Popup2_OnClick">
-                    <Image Source="Assets/2 tal.png"></Image>
-                </Button>
-                <Popup Margin="-160,-450,0,0" Width="200" Height="400" Name="Popup2" >
+                    <Button Name="Button2" Width="100" Height="100" Margin="275,-950,0,0" Background="Transparent" Click="Popup2_OnClick">
+                        <Image Source="Assets/2 tal.png"></Image>
+                    </Button>
+                    <Popup Margin="-160,-450,0,0" Width="200" Height="400" Name="Popup2" >
 
-                    <StackPanel Background="Goldenrod">
-                        <MediaElement></MediaElement>
-                        <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
+                        <StackPanel Background="Goldenrod">
+                            <MediaElement Source="media/montre med artefakter.m4a"></MediaElement>
+                            <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
                             Bag ved glasmontrene er der <LineBreak />
                             forskellige artefakter, som <LineBreak />
                             fans har enten lavet selv <LineBreak />
@@ -99,18 +101,18 @@
                             til stjernerne eller har <LineBreak />
                             samlet ved specielle begivenheder.
 
-                        </TextBlock>
-                    </StackPanel>
-                </Popup>
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
 
-                <Button Name="Button3" Width="100" Height="100" Margin="150,50,0,0" Background="Transparent" Click="Popup3_OnClick">
-                    <Image Source="Assets/2 tal.png"></Image>
-                </Button>
-                <Popup Margin="-160,-450,0,-75" Width="200" Height="400" Name="Popup3" >
+                    <Button Name="Button3" Width="100" Height="100" Margin="150,50,0,0" Background="Transparent" Click="Popup3_OnClick">
+                        <Image Source="Assets/2 tal.png"></Image>
+                    </Button>
+                    <Popup Margin="-160,-450,0,-75" Width="200" Height="400" Name="Popup3" >
 
-                    <StackPanel Background="Goldenrod">
-                        <MediaElement></MediaElement>
-                        <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
+                        <StackPanel Background="Goldenrod">
+                            <MediaElement Source="media/montre med artefakter.m4a"></MediaElement>
+                            <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
                             Bag ved glasmontrene er der <LineBreak />
                             forskellige artefakter, som <LineBreak />
                              fans har enten lavet selv <LineBreak />
@@ -118,21 +120,23 @@
                             til stjernerne eller har <LineBreak />
                             samlet ved specielle begivenheder.
 
-                        </TextBlock>
-                    </StackPanel>
-                </Popup>
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
 
-            </StackPanel>
+                </StackPanel>
 
+                <StackPanel Margin="0,717,0,0 " Background="Transparent">
+                    <Button Click="DenRødeTråd" Background="Transparent" Margin="0,0,0,0"   HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="150" Height="50">
+                        <Image Source="Assets/grå pil højre.png" Margin="0,0,0,0"  ></Image>
+                    </Button>
+                    <Button Click="MusikalskeStrømme" Background="Transparent" Margin="0,-50,0,0" HorizontalAlignment="Left" Width="150" Height="50">
+                        <Image Source="Assets/grå pil venstre.png"></Image>
+
+                    </Button>
+                </StackPanel>
+                </StackPanel>
+            </SplitView.Content>
         </SplitView>
-        <StackPanel Margin="0,717,0,0 " Background="Transparent">
-            <Button Click="DenRødeTråd" Background="Transparent" Margin="0,0,0,0"   HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="150" Height="50">
-                <Image Source="Assets/grå pil højre.png" Margin="0,0,0,0"  ></Image>
-            </Button>
-            <Button Click="MusikalskeStrømme" Background="Transparent" Margin="0,-50,0,0" HorizontalAlignment="Left" Width="150" Height="50">
-                <Image Source="Assets/grå pil venstre.png"></Image>
-
-            </Button>
-        </StackPanel>
     </Grid>
 </Page>
