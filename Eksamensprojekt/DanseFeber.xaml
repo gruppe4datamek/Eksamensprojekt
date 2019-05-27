@@ -87,7 +87,7 @@
                     <Popup Margin="-100,-400,0,0" Width="200" Height="450" Name="Popup2" >
 
                         <StackPanel Background="Goldenrod">
-                            <MediaElement></MediaElement>
+                            <MediaElement Source="media/Optagelse.m4a"></MediaElement>
                             <TextBlock FontSize="25" TextWrapping="Wrap">
                                 Ved dansemaskinen kan <LineBreak />
                                 du selv prøve de <LineBreak />
