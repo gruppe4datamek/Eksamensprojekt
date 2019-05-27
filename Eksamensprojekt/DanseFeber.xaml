@@ -86,7 +86,7 @@
                     
                     <Popup Margin="-100,-400,0,0" Width="200" Height="450" Name="Popup2" >
 
-                        <StackPanel Background="White">
+                        <StackPanel Background="Goldenrod">
                             <MediaElement></MediaElement>
                             <TextBlock FontSize="25" TextWrapping="Wrap">
                                 Ved dansemaskinen kan <LineBreak />

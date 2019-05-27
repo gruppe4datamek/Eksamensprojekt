@@ -72,7 +72,7 @@
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
                     <Popup Margin="0,-375,0,0" Width="250" Height="400" Name="Popup1">
-                        <StackPanel Background="white">
+                        <StackPanel Background="Goldenrod">
                             <TextBlock FontSize="25" TextAlignment="Left">
                                 På væggen er der vist <LineBreak />
                                 forskellige genre og <LineBreak />

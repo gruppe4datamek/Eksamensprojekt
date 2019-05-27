@@ -74,7 +74,7 @@
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
                     <Popup Margin="-285,-485,0,0" Width="150" Height="300" Name="Popup1">
-                        <StackPanel Background="White">
+                        <StackPanel Background="Goldenrod">
                             <TextBlock FontSize="25" TextAlignment="Center">
                              I de forskellige montre <LineBreak />
                              kan der ses de forskellige <LineBreak />

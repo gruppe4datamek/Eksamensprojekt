@@ -71,7 +71,7 @@
                     <Image Source="Assets/1 tal v1.png"></Image>
                 </Button>
                 <Popup Margin="-100,-175,125,0" Width="150" Height="300" Name="Popup1">
-                    <StackPanel Background="White">
+                    <StackPanel Background="Goldenrod">
                         <MediaElement></MediaElement>
                         <TextBlock FontSize="25" TextAlignment="Center">
                          her kan du se hvor <LineBreak />
@@ -89,7 +89,7 @@
                 </Button>
                 <Popup Margin="-160,-450,0,0" Width="200" Height="400" Name="Popup2" >
 
-                    <StackPanel Background="White">
+                    <StackPanel Background="Goldenrod">
                         <MediaElement></MediaElement>
                         <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
                             Bag ved glasmontrene er der <LineBreak />
@@ -108,7 +108,7 @@
                 </Button>
                 <Popup Margin="-160,-450,0,-75" Width="200" Height="400" Name="Popup3" >
 
-                    <StackPanel Background="White">
+                    <StackPanel Background="Goldenrod">
                         <MediaElement></MediaElement>
                         <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
                             Bag ved glasmontrene er der <LineBreak />
