@@ -75,13 +75,12 @@
                         <StackPanel Background="Goldenrod">
                             <MediaElement Source="media/Elektrisk intimitet.m4a"></MediaElement>
                             <TextBlock FontSize="25" TextAlignment="Center">
-                                Den røde tråd er en <LineBreak />
-                                digital, kronologisk <LineBreak />
-                                tidslinje, der med <LineBreak />
-                                udgangspunkt i museets <LineBreak />
-                                samling, belyser dansk <LineBreak />
-                                rock, pop og ungdomskultur <LineBreak />
-                                fra 1940’erne og frem til i dag.
+                                I dette tema fortæller <LineBreak />
+                                museet historien om de <LineBreak />
+                                unges dagligdag, drømme <LineBreak />
+                                og kærlighed i fokus <LineBreak />
+                                med musikken som <LineBreak />
+                                omdrejningspunkt.
                             </TextBlock>
                         </StackPanel>
                     </Popup>
