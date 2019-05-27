@@ -44,15 +44,11 @@
                     <Button Click="Fandrenge_fanpiger" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Fandrenge, fanpiger</Button>
                     <Image Source="Assets/Fandrenge, fanpiger.png" Height="auto" Width="30" ></Image>
                 </StackPanel>
-                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                    <Button Click="DenRødeTråd" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den røde tråd</Button>
-                    <Image Source="Assets/Den røde tråd.png" Height="auto" Width="30" ></Image>
-                </StackPanel>
-                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
-                    <Button Click="ElektriskIntimitet" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Elektrisk intimitet</Button>
-                    <Image Source="Assets/Elektrisk intimitet .png" Height="auto" Width="30" ></Image>
-                </StackPanel>
-                <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Click="DenRødeTråd" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den røde tråd</Button>
+                        <Image Source="Assets/Den røde tråd.png" Height="auto" Width="30" ></Image>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
                     <Button Click="DenFedeLyd" Margin="0,0,0,0" Height="auto" Width="159" FontSize="14" Background="DarkGoldenrod">Den Fede Lyd</Button>
                     <Image Source="Assets/Jagtten på den fede lyd.png" Height="auto" Width="30" ></Image>
                 </StackPanel>
