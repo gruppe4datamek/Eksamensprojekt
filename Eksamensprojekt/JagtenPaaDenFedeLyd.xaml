@@ -84,12 +84,15 @@
                     </Popup>
 
                 </StackPanel>
+                
 
             </SplitView.Content>
 
         </SplitView>
-        <StackPanel Margin="0,717,0,0 " Background="Transparent">
-           
+        <StackPanel Margin="0,-15,0,0 " Background="Transparent">
+            <Button Click="MainPage_OnClick" Background="Transparent" Margin="0,729,0,0"   HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="150" Height="50">
+                <Image Source="Assets/grå pil højre.png" Margin="0,0,0,0"  ></Image>
+            </Button>
             
         </StackPanel>
     </Grid>
