@@ -66,7 +66,7 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel>
+                <StackPanel HorizontalAlignment="Stretch" Margin="0,0,0.4,-22.2" VerticalAlignment="Stretch">
                 <StackPanel Margin="0,0,0,-25" Background="Transparent">
                     <MediaElement Source="media/fandrenge og fanpiger.m4a"></MediaElement>
                     <Button Name="Button1" Width="100" Height="100" Margin="285,315,0,0" Background="Transparent" Click="Popup1_OnClick">
@@ -126,7 +126,7 @@
 
                 </StackPanel>
 
-                <StackPanel Margin="0,717,0,0 " Background="Transparent">
+                <StackPanel Margin="0,-15,0,0 " Background="Transparent">
                     <Button Click="DenRødeTråd" Background="Transparent" Margin="0,0,0,0"   HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="150" Height="50">
                         <Image Source="Assets/grå pil højre.png" Margin="0,0,0,0"  ></Image>
                     </Button>
