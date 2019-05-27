@@ -59,10 +59,7 @@ namespace Eksamensprojekt
             this.Frame.Navigate(typeof(DenRødeTråd));
         }
 
-        private void Rum7_OnClick(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(ElektriskIntimitet));
-        }
+        
 
         private void Rum9_OnClick(object sender, RoutedEventArgs e)
         {

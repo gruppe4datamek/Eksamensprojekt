@@ -74,10 +74,7 @@ namespace Eksamensprojekt
             this.Frame.Navigate(typeof(DenRødeTråd));
         }
 
-        public void ElektriskIntimitet(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(ElektriskIntimitet));
-        }
+       
 
         public void DenFedeLyd(object sender, RoutedEventArgs e)
         {
