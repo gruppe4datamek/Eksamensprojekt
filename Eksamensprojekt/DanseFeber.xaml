@@ -68,7 +68,7 @@
                             <Image Source="Assets/1 tal v1.png"></Image>
                         </Button>
                         <Popup Margin="-300,-200,0,0" Width="200" Height="300" Name="Popup1">
-                            <StackPanel Background="White">
+                            <StackPanel Background="Goldenrod">
                                 <MediaElement Source="media/Montre med videoer.m4a"></MediaElement>
                                 <TextBlock FontSize="25" TextAlignment="Center">
                                     Med montre videoer af dansestile,<LineBreak /> 
