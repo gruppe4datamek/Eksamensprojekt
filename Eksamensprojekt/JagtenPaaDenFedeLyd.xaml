@@ -68,9 +68,9 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel Margin="150,0,0,0" Background="Transparent">
+                <StackPanel Margin="0,0,-2,0.2" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                     <MediaElement Source="media/Jagten på den fede lyd.m4a"></MediaElement>
-                    <Button Name="Button1" Width="100" Height="100" Margin="0,325,0,0" Background="Transparent" Click="Popup1_OnClick">
+                    <Button Name="Button1" Width="100" Height="100" Margin="120,325,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
                     <Popup Margin="-285,-485,0,0" Width="150" Height="300" Name="Popup1">
@@ -87,17 +87,21 @@
                         </StackPanel>
                     </Popup>
 
+                    <StackPanel Margin="-190,-15,0,0 " Background="Transparent">
+                        <Button Click="MainPage_OnClick" Background="Transparent" Margin="0,220
+                    ,0,0"   HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="150" Height="50">
+                            <Image Source="Assets/grå pil højre.png" Margin="0,0,0,0"  ></Image>
+                        </Button>
+                        <Button Click="DenRødeTråd" Background="Transparent" Margin="200,-100,0,0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="150" Height="50">
+                            <Image Source="Assets/grå pil venstre.png"></Image>
+                        </Button>
+
+                    </StackPanel>
                 </StackPanel>
-                
+
 
             </SplitView.Content>
 
         </SplitView>
-        <StackPanel Margin="0,-15,0,0 " Background="Transparent">
-            <Button Click="MainPage_OnClick" Background="Transparent" Margin="0,729,0,0"   HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="150" Height="50">
-                <Image Source="Assets/grå pil højre.png" Margin="0,0,0,0"  ></Image>
-            </Button>
-            
-        </StackPanel>
     </Grid>
 </Page>

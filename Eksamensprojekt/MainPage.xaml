@@ -46,10 +46,8 @@
                     <Button Click="Rum6_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-290,-15,0,0" Height="auto" Width="240">Den Røde Tråd</Button>
                     <Image Margin="-60,20,-10,30" Width="40" Height="auto" Source="Assets/Den røde tråd.png"></Image>
 
-                    <Button Click="Rum7_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-290,150,10,60" Height="auto" Width="240">Elektrisk Intimitet</Button>
-                    <Image Margin="-50,0,0,-90" Width="40" Height="auto" Source="Assets/Elektrisk intimitet .png"></Image>
-                    <Button Click="Rum9_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-290,140,10,-70" Height="auto" Width="240">Jagten på den fede lyd</Button>
-                    <Image Margin="-60,0,0,-200" Width="35" Height="auto" Source="Assets/Jagtten på den fede lyd.png"></Image>
+                    <Button Click="Rum9_OnClick" Background="DarkGoldenrod" FontSize="15" Margin="-290,22,10,-70" Height="auto" Width="240">Jagten på den fede lyd</Button>
+                    <Image Margin="-60,-120,0,-200" Width="35" Height="auto" Source="Assets/Jagtten på den fede lyd.png"></Image>
                 </StackPanel>
                 
 
