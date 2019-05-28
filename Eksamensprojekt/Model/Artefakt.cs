@@ -10,17 +10,25 @@ namespace Eksamensprojekt
     public class Artefakt
     {
         private string _lydfil;
-        private string _lydfiltekst;
+        private string _lydfilTekst;
 
-        public Artefakt(string lydfil, string lydfiltekst)
+        public Artefakt(string lydfil, string lydfilTekst)
         {
             _lydfil = lydfil;
-            _lydfiltekst = lydfiltekst;
+            _lydfilTekst = lydfilTekst;
         }
 
-        
+        public string Lydfil
+        {
+            get { return _lydfil; }
+            set { _lydfil = value; }
+        }
 
-
+        public string LydfilTekst
+        {
+            get { return _lydfilTekst; }
+            set { _lydfilTekst = value; }
+        }
 
     }
 }
