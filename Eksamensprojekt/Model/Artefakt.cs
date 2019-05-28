@@ -18,8 +18,7 @@ namespace Eksamensprojekt
             _lydfiltekst = lydfiltekst;
         }
 
-
-
+        
 
 
     }
