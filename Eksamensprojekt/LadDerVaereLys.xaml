@@ -76,7 +76,7 @@
                     <Popup Margin="-200,-275,0,0" Width="250" Height="400" Name="Popup1">
                         <StackPanel Margin="50,0,50,0" Background="Goldenrod" BorderBrush="Black">
                             <MediaElement Source="media/lysshows maskine.m4a"></MediaElement>
-                            <TextBlock Text="{Binding Artefakt[0].LydfilTekst}" FontSize="25" TextAlignment="Left" TextWrapping="Wrap">
+                            <TextBlock Text="{Binding Artefakt[0].LydfilTekst}" FontSize="25" TextAlignment="Left" TextWrapping="Wrap" MaxWidth="250">
 
                             </TextBlock>
                         </StackPanel>
@@ -89,13 +89,8 @@
 
                         <StackPanel Background="Goldenrod">
                             <MediaElement Source="media/gammelt lysshows kamera.m4a"></MediaElement>
-                            <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
-                                Det gamle kamera blev brugt <LineBreak />
-                                til at lave lysshow i fysisk <LineBreak />
-                                form før det blev digitaliseret. <LineBreak />
-                                Farverne bliver dannet ved <LineBreak />
-                                opvarmning af diverse olier.
-
+                            <TextBlock Text="{Binding Artefakt[1].LydfilTekst}" FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
+                                
                             </TextBlock>
                            
                            
