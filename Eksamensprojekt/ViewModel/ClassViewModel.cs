@@ -10,7 +10,7 @@ namespace Eksamensprojekt.ViewModel
   public class ClassViewModel
   {
 
-      private string _name;
+      
 
       
     }

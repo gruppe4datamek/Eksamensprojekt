@@ -9,14 +9,17 @@ namespace Eksamensprojekt
     
     public class Artefakt
     {
-        private string _navn;
+        private string _beskrivelse;
+        private string _lydfil;
 
-       
-        public Artefakt(string navn)
+        public Artefakt(string beskrivelse, string lydfil)
         {
-            Navn = navn;
+            _beskrivelse = beskrivelse;
+            _lydfil = lydfil;
         }
-        public string Navn { get => _navn; set => _navn = value; }
+
+
+
 
 
     }
