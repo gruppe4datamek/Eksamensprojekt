@@ -9,13 +9,18 @@ namespace Eksamensprojekt.ViewModel
 {
   public class ClassViewModel
   {
-      private ArtefaktListe artefakts;
+      private Artefaktarray _artefakts;
 
       public ClassViewModel()
       {
-          artefakts = new ArtefaktListe();
+          _artefakts = new Artefaktarray();
       }
 
-        
+      public Artefakt[] Artefakt
+        {
+          get { return _artefakts.Artefacts; }
+      }
+
+      
     }
 }
