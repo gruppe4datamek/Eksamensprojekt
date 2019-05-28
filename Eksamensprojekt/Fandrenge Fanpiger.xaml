@@ -72,16 +72,11 @@
                     <Button Name="Button1" Width="100" Height="100" Margin="285,315,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
-                    <Popup Margin="-100,-175,125,0" Width="150" Height="300" Name="Popup1">
+                        <Popup Margin="-100,-175,125,0" Width="250" Height="300" Name="Popup1">
                         <StackPanel Background="Goldenrod">
                             <MediaElement Source="media/råbe maskinen.m4a"></MediaElement>
-                            <TextBlock FontSize="25" TextAlignment="Center">
-                         her kan du se hvor <LineBreak />
-                         højt du kan råbe <LineBreak />
-                         ind i maskinen og <LineBreak />
-                         få det sammenlignet <LineBreak />
-                         med fans lydniveau <LineBreak />
-                         ved forskellige koncerter.
+                                <TextBlock FontSize="25" TextAlignment="Center" Text="{Binding Artefakt[6].LydfilTekst}" MaxWidth="250">
+                        
                             </TextBlock>
                         </StackPanel>
                     </Popup>
@@ -89,17 +84,12 @@
                     <Button Name="Button2" Width="100" Height="100" Margin="275,-950,0,0" Background="Transparent" Click="Popup2_OnClick">
                         <Image Source="Assets/2 tal.png"></Image>
                     </Button>
-                    <Popup Margin="-160,-450,0,0" Width="200" Height="400" Name="Popup2" >
+                    <Popup Margin="-160,-450,0,0" Width="250" Height="400" Name="Popup2" >
 
                         <StackPanel Background="Goldenrod">
                             <MediaElement Source="media/montre med artefakter.m4a"></MediaElement>
-                            <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
-                            Bag ved glasmontrene er der <LineBreak />
-                            forskellige artefakter, som <LineBreak />
-                            fans har enten lavet selv <LineBreak />
-                            for at vise deres hengivenhed <LineBreak />
-                            til stjernerne eller har <LineBreak />
-                            samlet ved specielle begivenheder.
+                                <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left" Text="{Binding Artefakt[7].LydfilTekst}" MaxWidth="250">
+                            
 
                             </TextBlock>
                         </StackPanel>
@@ -108,18 +98,12 @@
                     <Button Name="Button3" Width="100" Height="100" Margin="150,50,0,0" Background="Transparent" Click="Popup3_OnClick">
                         <Image Source="Assets/2 tal.png"></Image>
                     </Button>
-                    <Popup Margin="-160,-450,0,-75" Width="200" Height="400" Name="Popup3" >
+                    <Popup Margin="-160,-450,0,-75" Width="250" Height="400" Name="Popup3" >
 
                         <StackPanel Background="Goldenrod">
                             <MediaElement Source="media/montre med artefakter.m4a"></MediaElement>
-                            <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left">
-                            Bag ved glasmontrene er der <LineBreak />
-                            forskellige artefakter, som <LineBreak />
-                             fans har enten lavet selv <LineBreak />
-                            for at vise deres hengivenhed <LineBreak />
-                            til stjernerne eller har <LineBreak />
-                            samlet ved specielle begivenheder.
-
+                                <TextBlock FontSize="25" TextWrapping="Wrap" TextAlignment="Left" Text="{Binding Artefakt[7].LydfilTekst}" MaxWidth="250">
+                            
                             </TextBlock>
                         </StackPanel>
                     </Popup>

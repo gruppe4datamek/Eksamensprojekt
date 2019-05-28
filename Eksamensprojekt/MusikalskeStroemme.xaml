@@ -75,16 +75,8 @@
                         <Popup Margin="0,-375,0,0" Width="250" Height="400" Name="Popup1">
                             <StackPanel Background="Goldenrod">
                                 <MediaElement Source="media/musik væg.m4a"></MediaElement>
-                                <TextBlock FontSize="25" TextAlignment="Left">
-                                På væggen er der vist <LineBreak />
-                                forskellige genre og <LineBreak />
-                                bands fra et bestemt <LineBreak />
-                                tidsperiode, hvor du <LineBreak />
-                                selv kan koble dig på med <LineBreak />
-                                USB stik til hovedtelefoner<LineBreak />
-                                der er til stede, og høre <LineBreak />
-                                sangene fra de forskellige <LineBreak />
-                                genre.
+                                <TextBlock FontSize="25" TextAlignment="Left" Text="{Binding Artefakt[5].LydfilTekst}" MaxWidth="250">
+                                
                                 </TextBlock>
                             </StackPanel>
                         </Popup>

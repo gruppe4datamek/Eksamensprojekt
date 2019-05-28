@@ -66,13 +66,11 @@
                     <Button Name="Button1" Width="100" Height="100" Margin="60,365,0,0" Background="Transparent" Click="Popup1_OnClick">
                             <Image Source="Assets/1 tal v1.png"></Image>
                         </Button>
-                        <Popup Margin="-300,-200,0,0" Width="200" Height="300" Name="Popup1">
+                        <Popup Margin="-300,-200,0,0" Width="250" Height="300" Name="Popup1">
                             <StackPanel Background="Goldenrod">
                                 <MediaElement Source="media/Montre med videoer.m4a"></MediaElement>
-                                <TextBlock FontSize="25" TextAlignment="Center">
-                                    Med montre videoer af dansestile,<LineBreak /> 
-                                    kan der ses de forskellige dansestile <LineBreak /> 
-                                    gennem tiderne.
+                            <TextBlock Text="{Binding Artefakt[2].LydfilTekst}" FontSize="25" TextAlignment="Center" MaxWidth="250">
+                                    
                                 </TextBlock>
                             </StackPanel>
                         </Popup>
@@ -83,16 +81,12 @@
                         </Button>
                     
                     
-                    <Popup Margin="-100,-400,0,0" Width="200" Height="450" Name="Popup2" >
+                    <Popup Margin="-100,-400,0,0" Width="250" Height="450" Name="Popup2" >
 
                         <StackPanel Background="Goldenrod">
                             <MediaElement Source="media/Optagelse.m4a"></MediaElement>
-                            <TextBlock FontSize="25" TextWrapping="Wrap">
-                                Ved dansemaskinen kan <LineBreak />
-                                du selv prøve de <LineBreak />
-                                forskellige dansestile <LineBreak />
-                                og få respons på hvor <LineBreak />
-                                godt du danser.
+                            <TextBlock Text="{Binding Artefakt[3].LydfilTekst}" FontSize="25" TextWrapping="Wrap" MaxWidth="250">
+                                
                             </TextBlock>
                         </StackPanel>
                     </Popup>
