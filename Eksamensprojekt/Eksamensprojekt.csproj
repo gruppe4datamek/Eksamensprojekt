@@ -135,11 +135,9 @@
       <DependentUpon>JagtenPaaDenFedeLyd.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Artefakt.cs" />
-    <Compile Include="Model\Beskrivelse.cs" />
     <Compile Include=".xaml.cs">
       <DependentUpon>LadDerVaereLys.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Lydfiler.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
