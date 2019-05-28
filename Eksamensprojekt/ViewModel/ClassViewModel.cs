@@ -9,9 +9,13 @@ namespace Eksamensprojekt.ViewModel
 {
   public class ClassViewModel
   {
+      private ArtefaktListe artefakts;
 
-      
+      public ClassViewModel()
+      {
+          artefakts = new ArtefaktListe();
+      }
 
-      
+        
     }
 }

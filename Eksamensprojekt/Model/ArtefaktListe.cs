@@ -13,7 +13,7 @@ namespace Eksamensprojekt
        public ArtefaktListe()
        {
            _artefakts = new List<Artefakt>();
-           _artefakts.Add(new Artefakt());
+           _artefakts.Add(new Artefakt("Lad der være lys.m4a", "Velkommen til rummet Lad Der Være Lys. Herinde er der informationer om lysshow igennem tiderne i forhold til musikken.."));
        }
 
 
