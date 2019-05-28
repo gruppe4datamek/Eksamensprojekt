@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="Eksamensprojekt.ElektriskIntimitet"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Eksamensprojekt"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Height="768" Width="432" >
+
+
+        <Grid.Background>
+            <ImageBrush ImageSource ="Assets/Rum 7 og 8.png" Stretch="Fill">
+                <ImageBrush.Transform>
+                    <CompositeTransform TranslateX="0" TranslateY="60"/>
+                </ImageBrush.Transform>
+            </ImageBrush>
+        </Grid.Background>
+        <RelativePanel Margin="0,0,0,706" Background="DarkGoldenrod" HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch">
+            <Button Name="HamburgerButton" Background="Goldenrod" FontFamily="Segoe MDL2 Assets" FontSize="40" Content="&#xE700;" Margin="10,5,0,0" Click="HamburgerButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+            <TextBlock Text="Elektrisk Intimitet" Margin="104,8,-209.8,-32.6" FontSize="38" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        </RelativePanel>
+        <SplitView Name="mySplitView" Margin="0,62,10,29" DisplayMode="Overlay" IsPaneOpen="False" OpenPaneLength="350" Opacity="0.6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="2">
+            <SplitView.Pane>
+                <StackPanel Margin="0,60,0,0" Padding="20" Orientation="Horizontal" VerticalAlignment="Top">
+                    <Button Click="MainPage_OnClick" Background="DarkGoldenrod" >Forside</Button>
+                    <Image Source="Assets/rockrock.png" Width="32" Height="auto" Margin="5"></Image>
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <StackPanel Margin="150,0,0,0" Background="Transparent">
+                <MediaElement Source="media/Elektrisk intimitet.m4a"></MediaElement>
+                    <Button Name="Button1" Width="100" Height="100" Margin="265,435,0,0" Background="Transparent" Click="Popup1_OnClick">
+                        <Image Source="Assets/1 tal v1.png"></Image>
+                    </Button>
+                    <Popup Margin="270,-175,0,0" Width="150" Height="300" Name="Popup1">
+                        <StackPanel Background="LightBlue">
+                            <TextBlock Text="test" FontSize="25" TextAlignment="Center">
+
+                            </TextBlock>
+                        </StackPanel>
+                    </Popup>
+
+                </StackPanel>
+
+            </SplitView.Content>
+
+        </SplitView>
+
+
+    </Grid>
+</Page>

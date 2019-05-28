@@ -125,25 +125,33 @@
     <Compile Include="DenRødeTråd.xaml.cs">
       <DependentUpon>DenRødeTråd.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ElektriskIntimitet.xaml.cs">
+      <DependentUpon>ElektriskIntimitet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Fandrenge Fanpiger.xaml.cs">
       <DependentUpon>Fandrenge Fanpiger.xaml</DependentUpon>
     </Compile>
     <Compile Include="JagtenPaaDenFedeLyd.xaml.cs">
       <DependentUpon>JagtenPaaDenFedeLyd.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Artefakt.cs" />
+    <Compile Include="Model\Beskrivelse.cs" />
     <Compile Include=".xaml.cs">
       <DependentUpon>LadDerVaereLys.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Lydfiler.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MusikalskeStroemme.xaml.cs">
       <DependentUpon>MusikalskeStroemme.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Persistency\FilePersistency.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skælv.xaml.cs">
       <DependentUpon>Skælv.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\ClassViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -227,6 +235,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DenRødeTråd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ElektriskIntimitet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
