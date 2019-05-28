@@ -70,7 +70,7 @@
                     <Popup Margin="0,-455,0,0" Width="250" Height="300" Name="Popup1">
                         <StackPanel Background="Goldenrod">
                             <MediaElement Source="media/montre.m4a"></MediaElement>
-                            <TextBlock FontSize="25" TextAlignment="Center" Text="{Binding Artefakt[4].LydfilTekst}" MaxWidth="250">
+                            <TextBlock FontSize="25" TextAlignment="Center" Text="{Binding Artefakt[4].LydfilTekst}" MaxWidth="250" TextWrapping="Wrap">
                                 
                             </TextBlock>
                         </StackPanel>

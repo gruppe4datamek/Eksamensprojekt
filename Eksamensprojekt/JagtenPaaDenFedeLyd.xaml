@@ -73,10 +73,10 @@
                     <Button Name="Button1" Width="100" Height="100" Margin="120,325,0,0" Background="Transparent" Click="Popup1_OnClick">
                         <Image Source="Assets/1 tal v1.png"></Image>
                     </Button>
-                    <Popup Margin="-285,-485,0,0" Width="250" Height="300" Name="Popup1">
+                    <Popup Margin="-225,-495,0,0" Width="250" Height="300" Name="Popup1">
                         <StackPanel Background="Goldenrod">
                             <MediaElement Source="media/montre (jagten på den fede lyd).m4a"></MediaElement>
-                            <TextBlock FontSize="25" TextAlignment="Center" Text="{Binding Artefakt[9].LydfilTekst}" MaxWidth="250">
+                            <TextBlock FontSize="25" TextAlignment="Center" Text="{Binding Artefakt[9].LydfilTekst}" MaxWidth="250" TextWrapping="Wrap">
                              
                             </TextBlock>
                         </StackPanel>
