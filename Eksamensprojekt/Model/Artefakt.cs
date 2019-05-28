@@ -10,14 +10,21 @@ namespace Eksamensprojekt
     public class Artefakt
     {
         private string _navn;
+        private string _beskrivelse;
 
        
-        public Artefakt(string navn)
+        public Artefakt(string navn, string beskrivelse)
         {
-            Navn = navn;
+            Navn = _navn;
+            beskrivelse = _beskrivelse;
         }
         public string Navn { get => _navn; set => _navn = value; }
 
+        public string Beskrivelse
+        {
+            get => _beskrivelse;
+            set => _beskrivelse = value;
+        }
 
     }
 }
